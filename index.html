@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>CometVisu by CometVisu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">CometVisu</h1>
+      <h2 class="project-tagline">CometVisu homepage</h2>
+    </section>
+
+    <section class="main-content">
+      <p><a href="https://travis-ci.org/CometVisu/CometVisu"><img src="https://travis-ci.org/CometVisu/CometVisu.svg?branch=develop" alt="Build Status"></a> <a href="https://coveralls.io/github/CometVisu/CometVisu?branch=develop"><img src="https://coveralls.io/repos/github/CometVisu/CometVisu/badge.svg?branch=develop" alt="Coverage Status"></a>
+<a href="https://gitter.im/CometVisu/CometVisu?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/CometVisu/CometVisu.svg" alt="Join the chat at https://gitter.im/CometVisu/CometVisu"></a></p>
+
+<p>CometVisu is a real-time visualization software using modern web technologies for
+building automation applications like smart homes.</p>
+
+<p>It only requires a web browser to display it and a web server as well as a 
+backend it can communicate with. The web server can be quite small (routers
+should already have enough power) as it is only serving static content. For 
+extended features it should support PHP, but that is optional and not required.</p>
+
+<h1>
+<a id="how-to-get-it" class="anchor" href="#how-to-get-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to get it:</h1>
+
+<p>The latest releases can be downloaded at:</p>
+
+<pre><code>https://github.com/CometVisu/CometVisu/releases
+</code></pre>
+
+<p>Note: When you own a WireGate the CometVisu comes already pre-installed.
+You will only need to download a new version from GitHub when the shipped version
+is outdated (it usually gets updated rather quickly, so try a system update 
+first) or you want to start CometVisu development.</p>
+
+<h1>
+<a id="how-to-install-it" class="anchor" href="#how-to-install-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install it:</h1>
+
+<p>Please see the <a href="./INSTALL">INSTALL</a> file.</p>
+
+<h1>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation:</h1>
+
+<p>The documentation and latest information can be found at:</p>
+
+<p><a href="http://www.cometvisu.org/">http://www.cometvisu.org/</a></p>
+
+<h1>
+<a id="support" class="anchor" href="#support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support:</h1>
+
+<p>To discuss with the developers you can use the the KNX User Forum
+at </p>
+
+<p><a href="https://knx-user-forum.de/forum/supportforen/cometvisu">https://knx-user-forum.de/forum/supportforen/cometvisu</a></p>
+
+<p>(spoken languages are German and English)</p>
+
+<h1>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites:</h1>
+
+<p>There are currently two different backends widely used: </p>
+
+<ol>
+<li>eibread-cgi / eibwrite-cgi are directly communicating with the eibd / knxd to have direct access to the KNX bus.</li>
+<li>OpenHAB can also be used as a backend.</li>
+</ol>
+
+<p>As extended functionality the diagram plugin can be used. This will require 
+a rrdtool installation with the added "fetchj" feature.</p>
+
+<p><strong>Notes on the KNX-backend</strong><br>
+The KNX-backend uses<br>
+/usr/lib/cgi-bin/l : a dummy-login<br>
+/usr/lib/cgi-bin/r : a symlink to /usr/bin/eibread-cgi<br>
+/usr/lib/cgi-bin/w : a symlink to /usr/bin/eibwrite-cgi<br>
+eibread/write-cgi are part of a modified eibd-clients package here:<br>
+<a href="http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/e/">http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/e/</a><br>
+(source: bcusdk)  </p>
+
+<p><strong>Important note on diagram-backend</strong><br>
+It uses a modified version of rrdtool, adding a "fetchj" option.<br>
+You can find source and Debian-packages here:<br>
+<a href="http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/r/">http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/r/</a><br>
+<a href="http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/libr/">http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/libr/</a>  </p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
