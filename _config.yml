@@ -1,13 +1,13 @@
 # Setup
 title:        CometVisu
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com
+  name:       Christian Mayer and the CometVisu contributers
+  url:        http://www.cometvisu.org
 
 # Gems
 gems:
