@@ -17,7 +17,6 @@ facebook:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-seo-tag
 
 #Others
