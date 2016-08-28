@@ -27,7 +27,5 @@ layout: redirected
 sitemap: false
 redirect_to: $target
 ---
-" >> wiki/$source/index.md
-  printf "key '%s', value '%s'.\n" "$source" "$target"
+" > wiki/$source/index.md
 done
-
