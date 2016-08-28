@@ -242,3 +242,7 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+.en:lang(en), .de:lang(de){
+    font-weight: bold;
+}
