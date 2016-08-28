@@ -5,9 +5,13 @@ baseurl:      ""
 paginate:     1
 
 # About/contact
-author:
+author:       Christian Mayer and the CometVisu contributers
 name:         Christian Mayer and the CometVisu contributers
 url:          http://test.cometvisu.org
+
+# SEO
+facebook:
+  publisher:  https://www.facebook.com/CometVisu/
 
 # Gems
 gems:
