@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/mapping_(Deutsch)
+redirect_to: /CometVisu/de/manual/config/mapping.html
 ---
 
