@@ -204,8 +204,6 @@ redirections=(
   "CometVisu/video|"
   "CometVisu/video_(Deutsch)|"
   "CometVisu/widgets%26plugins|"
-  "CometVisu​/XML-Elements|"
-  "CometVisu​/styling|"
   "Den_eingebauten_Editor_benutzen|"
   "Ebusd|"
   "Freeware|"
