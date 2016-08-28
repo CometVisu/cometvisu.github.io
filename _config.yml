@@ -6,8 +6,8 @@ paginate:     1
 
 # About/contact
 author:
-  name:       Christian Mayer and the CometVisu contributers
-  url:        http://www.cometvisu.org
+name:         Christian Mayer and the CometVisu contributers
+url:          http://www.cometvisu.org
 
 # Gems
 gems:
