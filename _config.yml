@@ -2,7 +2,6 @@
 title:        CometVisu
 tagline:      The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)
 baseurl:      ""
-paginate:     1
 
 # About/contact
 author:       Christian Mayer and the CometVisu contributers
@@ -15,7 +14,7 @@ facebook:
 
 # Gems
 gems:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
 
@@ -23,16 +22,16 @@ gems:
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 
-paginate: 5
-paginate_path: "/news/page:num/"
+#paginate: 5
+#paginate_path: "/news/page:num/"
 
 # Translations
 t:
   en:
     about:
       name: "About"
-      url: "/about/"
+      url: "/about"
   de:
     about:
       name: "Impressum"
-      url: "/about.de/"
+      url: "/about.de"

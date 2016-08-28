@@ -9,9 +9,9 @@ lang: de
 
 ### Angaben gemäß § 5 TMG:
 
-  Christian Mayer
-  Gerstackerstr. 1
-  83607 Holzkirchen
+>  Christian Mayer  
+>  Gerstackerstr. 1  
+>  83607 Holzkirchen
 
 ### Kontakt:
 
@@ -21,9 +21,9 @@ E-Mail: impressum @ christianmayer‌‚‍de
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
-  Christian Mayer
-  Gerstackerstr. 1
-  83607 Holzkirchen
+>  Christian Mayer  
+>  Gerstackerstr. 1  
+>  83607 Holzkirchen
 
 ## Haftungsausschluss:
 

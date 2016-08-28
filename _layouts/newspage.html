@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<ul>
+{% assign posts=site.posts | where:"lang", "en" %}
+{% for default in posts %}
+  {% assign translation = site.posts | where:"ref", default.ref | where:"lang", page.lang %}
+  {% if translation[0] %}
+    <li><a href="{{ translation[0].url }}">{{ translation[0].title }}</a></li>
+  {% else %}
+    <li><a href="{{ default.url }}">{{ default.title }}</a> [en] </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+{{ content }}
