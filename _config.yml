@@ -35,3 +35,14 @@ t:
     about:
       name: "Impressum"
       url: "/about.de"
+      
+# Collections - screenshot
+collections:
+  screenshotFiles:
+    descriptions:
+      - dir: "0.8.5"
+        title: "Release 0.8.5"
+      - dir: "0.9.0"
+        title: "Release 0.9.0"
+      - dir: "0.9.1"
+        title: "Release 0.9.1"

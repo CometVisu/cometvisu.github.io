@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% assign screenshots = site.collections | where:"label","screenshotFiles" %}
+{% for screenshot in screenshots[0].files %}
+  {% assign subdir = screenshot.path | split:'/' %}
+  {% assign desc   = screenshots[0].descriptions | where:"dir",subdir[2] %}
+  title: {{ desc[0].title }} <br/>
+  <img src="{{ screenshot.path | remove_first:'_'}}" /><br/>
+{% endfor %}
