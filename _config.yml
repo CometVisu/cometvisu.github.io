@@ -28,13 +28,39 @@ permalink: /news/:year/:month/:day/:title
 # Translations
 t:
   en:
+    tagline: "The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)"
     about:
       name: "About"
       url: "/about"
+    news:
+      name: "News"
+      url: "/news"
+    gallery:
+      name: "Screenshots"
+      url: "/screenshots"
+    manual:
+      name: "Manual"
+      url: "http://test.cometvisu.org/CometVisu/de/manual/"
+    apidoc:
+      name: "API Documentation"
+      url: "http://test.cometvisu.org/CometVisu/api/"
   de:
+    tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     about:
       name: "Impressum"
       url: "/about.de"
+    news:
+      name: "Neuigkeiten"
+      url: "/news/index.de"
+    gallery:
+      name: "Screenshots"
+      url: "/screenshots.de"
+    manual:
+      name: "Handbuch"
+      url: "http://test.cometvisu.org/CometVisu/de/manual/"
+    apidoc:
+      name: "API Dokumentation"
+      url: "http://test.cometvisu.org/CometVisu/api/"
       
 # Collections - screenshot
 collections:
