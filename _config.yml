@@ -40,9 +40,23 @@ t:
 collections:
   screenshotFiles:
     descriptions:
-      - dir: "0.8.5"
-        title: "Release 0.8.5"
-      - dir: "0.9.0"
-        title: "Release 0.9.0"
       - dir: "0.9.1"
-        title: "Release 0.9.1"
+        title: 
+          en: "Release 0.9.1"
+          de: "Release 0.9.1"
+      - dir: "0.9.0"
+        title:
+          en: "Release 0.9.0"
+          de: "Release 0.9.0"
+      - dir: "0.8.5"
+        title: 
+          en: "Release 0.8.5"
+          de: "Release 0.8.5"
+      - dir: ""
+        title: 
+          en: "Others"
+          de: "Andere"
+    text:
+      imageAofB:
+        en: "Image %1 of %2"
+        de: "Bild %1 von %2"

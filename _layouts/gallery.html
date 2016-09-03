@@ -1,11 +1,139 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    {% include head.html %}
+    <!--
+    <link rel="stylesheet" href="lib/flexslider/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--
+    <script src="lib/flexslider/jquery.flexslider.js"></script>
+    -->
+    <script type="text/javascript" charset="utf-8">
+    /*
+  $(window).load(function() {
+    $('.flexslider').flexslider({animation: "slide"});
+  });*/
+  /*
+  $(window).load(function() {
+  // The slider being synced must be initialized first
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+ 
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    smoothHeight: true,
+    sync: "#carousel"
+  });
+});
+  */
+</script>
+<!-- Place either at the bottom in the <head> of your page or inside your CSS -->
+<style type="text/css">
+/*
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('lib/flexslider/flexslider-icon.eot');
+  src: url('lib/flexslider/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('lib/flexslider/flexslider-icon.woff') format('woff'), url('lib/flexslider/flexslider-icon.ttf') format('truetype'), url('lib/flexslider/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}*/
 
-{% assign screenshots = site.collections | where:"label","screenshotFiles" %}
-{% for screenshot in screenshots[0].files %}
-  {% assign subdir = screenshot.path | split:'/' %}
-  {% assign desc   = screenshots[0].descriptions | where:"dir",subdir[2] %}
-  title: {{ desc[0].title }} <br/>
-  <img src="{{ screenshot.path | remove_first:'_'}}" /><br/>
-{% endfor %}
+.thumbnail {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+</style>
+    <link href="lib/lightbox/css/lightbox.css" rel="stylesheet">
+  </head>
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+      
+      {{ content }}
+      
+      {% comment %}
+      
+      Show all images in the order of the versions defined in _config.yml.
+      The algorithm iterates over the known versions and then in the loop
+      over all files. When the file belongs to the currently displayed version
+      it's put to the output variable `versionContent`.
+      At the end all files that belong to no known version are shown.
+      
+      {% endcomment %}
+      {% assign screenshots = site.collections | where:"label","screenshotFiles" | first %}
+      {% assign versions = screenshots.descriptions | map:'dir' %}
+      {% assign paths = screenshots.files | map:'path' %}
+      {% for version in versions %}
+        {% assign desc = screenshots.descriptions | where:"dir",version | first | map:"title" | first %}
+        {% assign useVersion = false %}
+        {% capture versionContent %}
+        <p>
+        {{ desc[page.lang] }}<br/>
+        {% for path in paths %}
+          {% assign pathSplit = path | split:'/' %}
+          {% if version == pathSplit[2] %}
+            {% assign useVersion = true %}
+            <a href="{{ path | remove_first:'_' }}" data-title="{{ desc[page.lang] }}" data-lightbox="thumb"><img src="{{ path | remove_first:'_' }}" class="thumbnail"/></a>
+          {% endif %}
+        {% endfor %}
+        </p>
+        {% endcapture %}
+        {% if useVersion %}
+          {{ versionContent }}
+        {% endif %}
+      {% endfor %}
+      {% assign useVersion = false %}
+      {% capture versionContent %}
+      <p>
+        {{ desc[page.lang] }}<br/>
+        {% for path in paths %}
+          {% assign pathSplit = path | split:'/' %}
+          {% if versions contains pathSplit[2] %}
+          {% else %}
+            {% assign useVersion = true %}
+            <a href="{{ path | remove_first:'_' }}" data-lightbox="thumb"><img src="{{ path | remove_first:'_' }}" class="thumbnail"/></a>
+          {% endif %}
+        {% endfor %}
+      </p>
+      {% endcapture %}
+      {% if useVersion %}
+        {{ versionContent }}
+      {% endif %}
+      
+      {% include page-footer.html %}
+
+    </section>
+
+    <script src="lib/lightbox/js/lightbox.js"></script>
+    <script>
+      lightbox.option({
+        albumLabel: '{{ screenshots.text.imageAofB[page.lang] }}'
+      })
+    </script>
+  </body>
+</html>
