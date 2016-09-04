@@ -5,6 +5,11 @@ ref: index
 lang: de
 ---
 
+{% include githubhandler.html %}
+
+Die neueste Version ist {{ newestVersion }}.
+
+
 CometVisu is a real-time visualization software using modern web technologies for
 building automation applications like smart homes.
 

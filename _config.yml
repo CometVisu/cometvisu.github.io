@@ -12,10 +12,13 @@ author:
 gems:
 #  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 #Others
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
+
+repository: CometVisu/CometVisu
 
 #paginate: 5
 #paginate_path: "/news/page:num/"
@@ -50,6 +53,7 @@ t:
       pageExplain: "Except where otherwise noted, content on this site is licensed under a"
       pageType: "Creative Commons Attribution 4.0 International license"
       codeExplain: "The CometVisu code is licensed under the GPLv3"
+    latestNews: "Latest news:"
   de:
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     index:
@@ -78,6 +82,7 @@ t:
       pageExplain: "Wo nicht anders ausgewiesen steht diese Seite unter der"
       pageType: "Creative Commons Attribution 4.0 International Lizenz"
       codeExplain: "Der CometVisu Code steht unter der GPLv3 Lizenz"
+    latestNews: "Letzte Neuigkeiten:"
       
 # Collections - screenshot
 collections:
