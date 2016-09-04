@@ -4,9 +4,9 @@ tagline:      The CometVisu open source development project for a building autom
 baseurl:      ""
 
 # About/contact
-author:       Christian Mayer and the CometVisu contributers
-name:         Christian Mayer and the CometVisu contributers
-url:          http://test.cometvisu.org
+author:
+  name:       Christian Mayer and the CometVisu contributers
+  url:        http://test.cometvisu.org
 
 # SEO
 facebook:
