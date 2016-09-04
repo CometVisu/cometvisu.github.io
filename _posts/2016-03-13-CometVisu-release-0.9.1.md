@@ -6,9 +6,6 @@ lang: en
 ref: post160313
 ---
 
-CometVisu release 0.9.1
-=======================
-
 The CometVisu project is happy to release the version 0.9.1 that can be 
 downloaded at
 [https://github.com/CometVisu/CometVisu/releases/download/v0.9.1/CometVisu-0.9.1.tar.gz](https://github.com/CometVisu/CometVisu/releases/download/v0.9.1/CometVisu-0.9.1.tar.gz)

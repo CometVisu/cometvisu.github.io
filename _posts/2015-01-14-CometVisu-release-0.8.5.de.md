@@ -6,7 +6,4 @@ lang: de
 ref: post150114
 ---
 
-CometVisu Release 0.8.5
-=======================
-
 Historisches Release

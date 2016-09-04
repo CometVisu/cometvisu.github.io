@@ -6,9 +6,6 @@ lang: en
 ref: post150114
 ---
 
-CometVisu release 0.8.5
-=======================
-
 The last release when the code was hosted on SourceForge:
 
 The CometVisu project is happy to release the version 0.8.5 that can be downloaded at [http://sourceforge.net/projects/openautomation/files/CometVisu/CometVisu_0.8.5.tar.bz2/](http://sourceforge.net/projects/openautomation/files/CometVisu/CometVisu_0.8.5.tar.bz2) download

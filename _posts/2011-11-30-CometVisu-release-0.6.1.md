@@ -6,9 +6,6 @@ lang: en
 ref: post111130
 ---
 
-CometVisu release 0.6.1
-=======================
-
 Historic release
 
 Downloads

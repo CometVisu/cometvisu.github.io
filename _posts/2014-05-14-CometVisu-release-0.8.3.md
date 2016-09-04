@@ -6,9 +6,6 @@ lang: en
 ref: post140514
 ---
 
-CometVisu release 0.8.3
-=======================
-
 Historic release
 
 Downloads

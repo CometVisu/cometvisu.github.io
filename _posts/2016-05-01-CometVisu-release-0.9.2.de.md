@@ -6,9 +6,6 @@ lang: de
 ref: post160501
 ---
 
-CometVisu Release 0.9.2
-=======================
-
 Historisches Release
 
 Downloads
