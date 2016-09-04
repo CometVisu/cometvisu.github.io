@@ -246,3 +246,25 @@ a {
 .en:lang(en), .de:lang(de){
     font-weight: bold;
 }
+
+/* CC icon font */
+@font-face {
+  font-family: 'fontello-icon-cc';
+  src: url('./cc-font/fontello.eot?63081990');
+  src: url('./cc-font/fontello.eot?63081990#iefix') format('embedded-opentype'),
+       url('./cc-font/fontello.woff?63081990') format('woff'),
+       url('./cc-font/fontello.ttf?63081990') format('truetype'),
+       url('./cc-font/fontello.svg?63081990#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-cc
+{
+  font-family: "fontello-icon-cc";
+  speak: none;
+}
+.icon-cc:hover
+{
+  text-decoration: none;
+}
