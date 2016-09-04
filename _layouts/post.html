@@ -2,9 +2,25 @@
 layout: default
 ---
 
+{% include posthandler.html %}
+
 <div itemscope itemtype="https://schema.org/BlogPosting">
   <meta itemprop="creator" content="{{ site.author.name }}">
   <meta itemprop="license" content="https://creativecommons.org/licenses/by/4.0/">
+
+  {% if previous %}
+  &lt;&lt;&lt;
+    <a href="{{ previous.url }}">{{ previous.title }}</a>{% unless previous.lang == page.lang %}[{{ previous.lang }}]{% endunless %}
+  {% endif %}
+  
+  {% if previous and next %}
+  ...
+  {% endif %}
+  
+  {% if next %}
+    <a href="{{ next.url }}">{{ next.title }}</a>{% unless next.lang == page.lang %}[{{ next.lang }}]{% endunless %}
+  &gt;&gt;&gt;
+  {% endif %}
   
 <h2 itemprop="name">{{ page.title }}</h2>
 <p class="meta">

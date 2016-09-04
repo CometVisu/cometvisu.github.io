@@ -1,0 +1,58 @@
+{% comment %} 
+
+Handle the previous and next post information in a multilangual environment.
+This will set the variables `previous` and `next`.
+
+-------------------------------------------------------------------------------
+Manual loop - assume at most 5 languages:
+{% endcomment %}
+{% assign previous = page.previous %}
+{% if previous.ref == page.ref %}
+  {% assign previous = previous.previous %}
+{% elsif previous.ref == page.ref %}
+  {% assign previous = previous.previous %}
+{% elsif previous.ref == page.ref %}
+  {% assign previous = previous.previous %}
+{% elsif previous.ref == page.ref %}
+  {% assign previous = previous.previous %}
+{% elsif previous.ref == page.ref %}
+  {% assign previous = previous.previous %}
+{% endif %}
+{% assign next = page.next %}
+{% if next.ref == page.ref %}
+  {% assign next = next.next %}
+{% elsif next.ref == page.ref %}
+  {% assign next = next.next %}
+{% elsif next.ref == page.ref %}
+  {% assign next = next.next %}
+{% elsif next.ref == page.ref %}
+  {% assign next = next.next %}
+{% elsif next.ref == page.ref %}
+  {% assign next = next.next %}
+{% endif %}
+{% comment %} 
+-------------------------------------------------------------------------------
+
+
+{% endcomment %}
+  {% assign posts=site.posts | where:"ref", previous.ref | sort: 'lang' %}
+  {% assign foundNoPost = true %}
+  {% for post in posts %}
+    {% if post.lang == page.lang %}
+      {% assign foundNoPost = false %}
+      {% assign previous = post %}
+    {% endif %}
+  {% endfor %}
+  {% if foundNoPost %}
+  {% endif %}
+  
+  {% assign posts=site.posts | where:"ref", next.ref | sort: 'lang' %}
+  {% assign foundNoPost = true %}
+  {% for post in posts %}
+    {% if post.lang == page.lang %}
+      {% assign foundNoPost = false %}
+      {% assign next = post %}
+    {% endif %}
+  {% endfor %}
+  {% if foundNoPost %}
+  {% endif %}

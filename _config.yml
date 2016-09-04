@@ -8,15 +8,10 @@ author:
   name:       Christian Mayer and the CometVisu contributers
   url:        http://test.cometvisu.org
 
-# SEO
-facebook:
-  publisher:  https://www.facebook.com/CometVisu/
-
 # Gems
 gems:
 #  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 #Others
 markdown: kramdown
