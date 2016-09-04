@@ -2,15 +2,20 @@
 layout: default
 ---
 
-<ul>
+<ul itemscope itemtype="http://schema.org/Blog">
 {% assign posts=site.posts | where:"lang", "en" %}
 {% for default in posts %}
   {% assign translation = site.posts | where:"ref", default.ref | where:"lang", page.lang %}
   {% if translation[0] %}
-    <li><a href="{{ translation[0].url }}">{{ translation[0].title }}</a></li>
+    {% assign post = translation[0] %}
   {% else %}
-    <li><a href="{{ default.url }}">{{ default.title }}</a> [en] </li>
+    {% assign post = default %}
   {% endif %}
+  <li itemscope itemtype="http://schema.org/BlogPosting">
+    <span><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+    <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>{% unless post.lang == page.lang %}[{{ post.lang }}]{% endunless %}
+    <div itemprop="description">{{ post.excerpt }}</div>
+  </li>
 {% endfor %}
 </ul>
 
