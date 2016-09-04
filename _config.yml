@@ -1,7 +1,8 @@
 # Setup
 title:        CometVisu
 tagline:      The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)
-#baseurl:      ""
+baseurl:      ""
+url:          http://test.cometvisu.org
 
 # About/contact
 author:
