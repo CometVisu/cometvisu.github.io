@@ -6,7 +6,10 @@ layout: default
 
 <div itemscope itemtype="https://schema.org/BlogPosting">
   <meta itemprop="creator" content="{{ site.author.name }}">
+  <meta itemprop="author" content="{{ site.author.name }}">
   <meta itemprop="license" content="https://creativecommons.org/licenses/by/4.0/">
+  <link itemprop="mainEntityOfPage" href="{{ site.url }}" />
+  <meta itemprop="image" content="/media/comet_icon_512x512_ff8000.png">
 
   {% if previous %}
   &lt;&lt;&lt;
@@ -22,7 +25,7 @@ layout: default
   &gt;&gt;&gt;
   {% endif %}
   
-<h2 itemprop="name">{{ page.title }}</h2>
+<h2 itemprop="headline">{{ page.title }}</h2>
 <p class="meta">
   <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
     {{ page.date | date_to_long_string }}
