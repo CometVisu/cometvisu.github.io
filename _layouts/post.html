@@ -8,9 +8,11 @@ layout: default
   <meta itemprop="creator" content="{{ site.author.name }}">
   <meta itemprop="author" content="{{ site.author.name }}">
   <meta itemprop="license" content="https://creativecommons.org/licenses/by/4.0/">
-  <link itemprop="mainEntityOfPage" href="{{ site.baseurl }}" />
+  <link itemprop="mainEntityOfPage" href="{{ site.url }}{{ page.url }}" />
   <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="{{ site.url }}/media/comet_icon_512x512_ff8000.png">
+    <meta itemprop="width" content="512">
+    <meta itemprop="height" content="512">
   </div>
 
   {% if previous %}
