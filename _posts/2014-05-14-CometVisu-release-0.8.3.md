@@ -10,3 +10,9 @@ CometVisu release 0.8.3
 =======================
 
 Historic release
+
+Downloads
+---------
+
+* [Source code (zip)](https://github.com/CometVisu/CometVisu/archive/v0.8.3.zip)
+* [Source code (tar.gz)](https://github.com/CometVisu/CometVisu/archive/v0.8.3.tar.gz)
