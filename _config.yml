@@ -24,6 +24,11 @@ permalink: /news/:year/:month/:day/:title
 t:
   en:
     tagline: "The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)"
+    index:
+      url: "/"
+    features:
+      name: "Features"
+      url: "/features"
     about:
       name: "About"
       url: "/about"
@@ -39,8 +44,19 @@ t:
     apidoc:
       name: "API Documentation"
       url: "http://test.cometvisu.org/CometVisu/api/"
+    languageSelect: "Language select"
+    generatedOn: "Generated on"
+    license:
+      pageExplain: "Except where otherwise noted, content on this site is licensed under a"
+      pageType: "Creative Commons Attribution 4.0 International license"
+      codeExplain: "The CometVisu code is licensed under the GPLv3"
   de:
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
+    index:
+      url: "/index.de"
+    features:
+      name: "Features"
+      url: "/features.de"
     about:
       name: "Impressum"
       url: "/about.de"
@@ -56,6 +72,12 @@ t:
     apidoc:
       name: "API Dokumentation"
       url: "http://test.cometvisu.org/CometVisu/api/"
+    languageSelect: "Sprachwahl"
+    generatedOn: "Erzeugt am"
+    license:
+      pageExplain: "Wo nicht anders ausgewiesen steht diese Seite unter der"
+      pageType: "Creative Commons Attribution 4.0 International Lizenz"
+      codeExplain: "Der CometVisu Code steht unter der GPLv3 Lizenz"
       
 # Collections - screenshot
 collections:
