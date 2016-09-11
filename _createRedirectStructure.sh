@@ -5,7 +5,7 @@
 
 defaultOldTarget="http://www.cometvisu.de/wiki/"
 defaultNewTarget="/CometVisu/"
-redirections=(`curl -L https://raw.githubusercontent.com/CometVisu/CometVisu/gh-pages/redirect-structure.sh`)
+redirections=(`curl -L https://raw.githubusercontent.com/CometVisu/CometVisu/gh-pages/redirect-structure.map`)
 
 for redirection in "${redirections[@]}" ; do
   source="${redirection%%|*}"
