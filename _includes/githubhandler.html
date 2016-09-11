@@ -3,5 +3,18 @@
 Handle the gitHub data structure to extract what we are interested in.
 
 -------------------------------------------------------------------------------
+Get the version number of the latest release:
 {% endcomment %}
 {% assign newestVersion = site.github.releases | map:"tag_name" | first | remove_first:"v" %}
+{% comment %} 
+-------------------------------------------------------------------------------
+Get the table of all contributors:
+{% endcomment %}
+{% capture contributorsTable %}
+{% for contributor in site.github.contributors %}
+<div class="contributor">
+<a href="{{ contributor.html_url }}">{{ contributor.login }}</a>
+<img src="{{ contributor.avatar_url }}" width="100" alt="{{ contributor.login }}: {{ contributor.contributions }} commits"/>
+</div>
+{% endfor %}
+{% endcapture %}

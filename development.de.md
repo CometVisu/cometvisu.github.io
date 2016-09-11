@@ -5,17 +5,11 @@ ref: development
 lang: de
 ---
 
+{% include githubhandler.html %}
+
 Entwicklung
 ===========
 
 Die CometVisu ist das Werk von vielen Entwicklern.
 
-<pre>
-{{ site.github.public_repositories | where:"full_name","CometVisu/CometVisu" }}
-===
-{{ site.github.contributors }}
----
-{{ site.github.organization_members }}
-===
-{{ site.github.url }}
-</pre>
+{{ contributorsTable }}
