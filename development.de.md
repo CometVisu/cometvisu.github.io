@@ -11,7 +11,7 @@ Entwicklung
 Die CometVisu ist das Werk von vielen Entwicklern.
 
 <pre>
-{{ site.github.public_repositories | where:"full_name","CometVisu/CometVisu" | map:"contributors" }}
+{{ site.github.public_repositories | where:"full_name","CometVisu/CometVisu" }}
 ===
 {{ site.github.contributors }}
 ---
