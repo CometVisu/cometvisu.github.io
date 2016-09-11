@@ -19,6 +19,7 @@ gems:
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 
+# jekyll-github-metadata data:
 repository: CometVisu/CometVisu
 
 #paginate: 5
@@ -42,6 +43,9 @@ t:
     gallery:
       name: "Screenshots"
       url: "/screenshots"
+    development:
+      name: "Development"
+      url: "/development"
     manual:
       name: "Manual"
       url: "http://test.cometvisu.org/CometVisu/de/manual/"
@@ -71,6 +75,9 @@ t:
     gallery:
       name: "Screenshots"
       url: "/screenshots.de"
+    development:
+      name: "Entwicklung"
+      url: "/development.de"
     manual:
       name: "Handbuch"
       url: "http://test.cometvisu.org/CometVisu/de/manual/"
