@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/demo_config/merlin123/de
+redirect_to: /CometVisu/de/manual/config/examples/merlin123.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/Installation/Backend/de
+redirect_to: /CometVisu/de/manual/install/backends/install-eibd.html
 ---
 

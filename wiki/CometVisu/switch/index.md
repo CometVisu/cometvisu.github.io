@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/switch
+redirect_to: /CometVisu/de/manual/config/widgets/switch/index.html
 ---
 

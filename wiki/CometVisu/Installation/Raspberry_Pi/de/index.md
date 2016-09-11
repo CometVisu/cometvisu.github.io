@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/Installation/Raspberry_Pi/de
+redirect_to: /CometVisu/de/manual/install/raspberry.html
 ---
 

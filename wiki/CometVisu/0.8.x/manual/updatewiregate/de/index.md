@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/0.8.x/manual/updatewiregate/de
+redirect_to: /CometVisu/de/manual/install/update-wiregate.html
 ---
 

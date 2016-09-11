@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/XML-Elemente
+redirect_to: /CometVisu/de/manual/config/xml-format.html
 ---
 

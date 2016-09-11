@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/handbook/de
+redirect_to: /CometVisu/de/manual/index.html
 ---
 
