@@ -48,10 +48,10 @@ t:
       url: "/development"
     manual:
       name: "Manual"
-      url: "http://test.cometvisu.org/CometVisu/de/manual/"
+      url: "http://test.cometvisu.org/CometVisu/de/latest/manual/"
     apidoc:
       name: "API Documentation"
-      url: "http://test.cometvisu.org/CometVisu/api/"
+      url: "http://test.cometvisu.org/CometVisu/en/latest/api/"
     languageSelect: "Language select"
     generatedOn: "Generated on"
     license:
@@ -80,10 +80,10 @@ t:
       url: "/development.de"
     manual:
       name: "Handbuch"
-      url: "http://test.cometvisu.org/CometVisu/de/manual/"
+      url: "http://test.cometvisu.org/CometVisu/de/latest/manual/"
     apidoc:
       name: "API Dokumentation"
-      url: "http://test.cometvisu.org/CometVisu/api/"
+      url: "http://test.cometvisu.org/CometVisu/en/latest/api/"
     languageSelect: "Sprachwahl"
     generatedOn: "Erzeugt am"
     license:
