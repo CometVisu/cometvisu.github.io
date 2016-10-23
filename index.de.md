@@ -13,6 +13,10 @@ Die neueste Version ist {{ newestVersion }}.
   * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 ...........
+{% assign rrr = site.github.public_repositories | where:"full_name", "CometVisu/CometVisu" %}
+{{ site.github.releases | jsonify }}
+{% assign XnewestVersion = site.github.releases | map:"tag_name" | first | remove_first:"v" %}
+...........
 
 CometVisu is a real-time visualization software using modern web technologies for
 building automation applications like smart homes.
