@@ -11,6 +11,36 @@
   <a href="https://github.com/CometVisu/CometVisu" class="btn" itemprop="url">View on GitHub</a>
 </section>
 
+<ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+  <li itemprop="itemListElement" itemscope
+      itemtype="http://schema.org/ListItem">
+    <a href="{{ site.t[page.lang].index.url }}">CometVisu</a>
+    <meta itemprop="position" content="1" />
+  </li>
+  {% if page.ref != "index" %}
+    &gt;
+    {% if page.layout == "post" %}
+      <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+        <a href="{{ site_t.news.url }}">{{ site_t.news.name }}</a>
+        <meta itemprop="position" content="2" />
+      </li>
+      &gt;
+      <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+        <meta itemprop="position" content="3" />
+      </li>
+    {% else %}
+      <li itemprop="itemListElement" itemscope
+          itemtype="http://schema.org/ListItem">
+        <a href="{{ this_t.url }}">{{ this_t.name }}</a>
+        <meta itemprop="position" content="2" />
+      </li>
+    {% endif %}
+  {% endif %}
+</ol>
+
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {{ site.t[page.lang].languageSelect }}:
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}

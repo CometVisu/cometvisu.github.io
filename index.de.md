@@ -1,6 +1,5 @@
 ---
 layout: indexpage
-title: {{ site.name }}
 ref: index
 lang: de
 ---

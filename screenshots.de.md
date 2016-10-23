@@ -1,7 +1,6 @@
 ---
 layout: gallery
-title: {{ site.name }}
-ref: screenshots
+ref: gallery
 lang: de
 ---
 
