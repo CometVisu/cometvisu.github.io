@@ -48,7 +48,7 @@ t:
       url: "/development"
     manual:
       name: "Manual"
-      url: "http://test.cometvisu.org/CometVisu/de/latest/manual/"
+      url: "http://test.cometvisu.org/CometVisu/en/latest/manual/"
     apidoc:
       name: "API Documentation"
       url: "http://test.cometvisu.org/CometVisu/en/latest/api/"
