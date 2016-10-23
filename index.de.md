@@ -14,7 +14,7 @@ Die neueste Version ist {{ newestVersion }}.
 {% endfor %}
 ...........
 {% assign rrr = site.github.public_repositories | where:"full_name", "CometVisu/CometVisu" %}
-{{ site.github.releases | jsonify }}
+{{ site.github | jsonify }}
 {% assign XnewestVersion = site.github.releases | map:"tag_name" | first | remove_first:"v" %}
 ...........
 
