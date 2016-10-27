@@ -6,7 +6,7 @@ Fill global variable to make multi language handling easier:
 {% comment %} ------------------------------------------------ {% endcomment %}
 {% include posthandler.html %}
   <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.title | default: this_t.name }} - CometVisu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ site.baseurl }}/media/comet_16x16_ff8000.png" type="image/png">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/media/comet_webapp_icon_76.png">
@@ -31,7 +31,6 @@ Fill global variable to make multi language handling easier:
   <meta property="og:site_name" content="CometVisu">
   <meta property="og:url" content="{{ page.url }}">
   <link rel="canonical" href="{{ page.url }}">
-  <meta name="description" content="{{ site.t[page.lang].tagline }}">
   <meta property="og:description" content="{{ site.t[page.lang].tagline }}">
   <meta property="og:type" content="article">
   {% if page.date %}
