@@ -14,6 +14,7 @@ Get the table of all contributors:
 {% for contributor in site.github.contributors %}
 <div class="contributor" itemscope itemtype="http://schema.org/Person">
 <a href="{{ contributor.html_url }}" itemprop="name">{{ contributor.login }}</a>
+<meta itemprop="homeLocation" content="github" />
 <img src="{{ contributor.avatar_url }}" width="100" alt="{{ contributor.login }}: {{ contributor.contributions }} commits" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" />
 </div>
 {% endfor %}
