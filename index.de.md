@@ -18,7 +18,7 @@ Die neueste Version ist {{ newestVersion }}.
 CometVisu - die Visualisierung für Ihr Smart Home
 =================================================
 
-Sei es nur eine smarte Wohnung, ein Smart Home oder ein ganzes Smart Building -
+Ob ein Smart Home oder ein ganzes Smart Building -
 die CometVisu ist die richtige Lösung um alles zu visualisieren und zu
 bedienen: von der Heizung bis zum Licht, von Multimedia bis hin zu Alarm-Meldungen.
 Alles geht - und sollte doch noch ein ganz spezielles Feature fehlen, so lässt

@@ -4,8 +4,8 @@ ref: features
 lang: de
 ---
 
-Features
-========
+Facts
+=====
 
 * Die CometVisu ist eine Echtzeit Visualisierung mit Responsive Design.
 * Das Projekt wurde 2010 gegründet und seit dem kontinuierlich weiterentwickelt.
@@ -39,3 +39,6 @@ Features
 * Durch die Wahl der Logik-Engine wird die Integration mit anderen Smart 
   Home Technologien festgelegt. Von Anwendern realisiert wurde bereits die
   Integration mit 1-Wire, DALI, DMX, Hue, ITTT, ...
+
+Features
+========
