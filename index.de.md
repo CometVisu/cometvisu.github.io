@@ -47,10 +47,10 @@ vollkommen aus.[^WebApp]
 
 
 Zur Anbindung des Smart Homes ist ein "Server" notwendig, bei dem jedoch bereits
-einfachste Hardware ausreichend ist: von einem Router über die beliebsten 
+einfachste Hardware ausreichend ist: von einem Router über die beliebten 
 Raspberry Pi bis hin zu einem vollwertigen Server ist alles möglich.
 
-Kein Interesse auf Intallation und Wartung eines eigenen Servers? Es gibt auch
+Kein Interesse an Installation und Wartung eines eigenen Servers? Es gibt auch
 kommerzielle Appliances auf denen die CometVisu bereits fertig lauffähig 
 installiert ist.[^KommerzielleAngebote]
 
