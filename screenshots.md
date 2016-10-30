@@ -4,11 +4,11 @@ ref: gallery
 lang: en
 ---
 
-Dummy Seite
-===========
-
-Old Stuff
-=========
-
 Gallery
 =======
+
+{% comment %}
+------------------------------------------------------------------------------
+Gallery content is automatically inserted here by the layout
+------------------------------------------------------------------------------
+{% endcomment %}

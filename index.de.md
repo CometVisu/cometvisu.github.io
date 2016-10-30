@@ -4,95 +4,64 @@ ref: index
 lang: de
 ---
 
-Dummy Seite
-===========
-
-Old Stuff
-=========
-
+{% comment %} 
+So lange noch nicht der Repository-Wechsel funktioniert, d.h. der Wechsel der
+GitHub Daten von CometVisu/cometvisu.github.io nach CometVisu/CometVisu muss
+das hier aus kommentiert bleiben und kann nicht automatisiert werden:
+------------------------------------------------------------------------------
 {% include githubhandler.html %}
 
 Die neueste Version ist {{ newestVersion }}.
+------------------------------------------------------------------------------
+{% endcomment %}
 
-...........
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
-...........
-{% assign rrr = site.github.public_repositories | where:"full_name", "CometVisu/CometVisu" %}
-{{ site.github | jsonify }}
-{% assign XnewestVersion = site.github.releases | map:"tag_name" | first | remove_first:"v" %}
-...........
-site.repository: {{ site.repository }}
-...........
+CometVisu - die Visualisierung für Ihr Smart Home
+=================================================
 
-CometVisu is a real-time visualization software using modern web technologies for
-building automation applications like smart homes.
+Sei es nur eine smarte Wohnung, ein Smart Home oder ein ganzes Smart Building -
+die CometVisu ist die richtige Lösung um alles zu visualisieren und zu
+bedienen: von der Heizung bis zum Licht, von Multimedia bis hin zu Alarm-Meldungen.
+Alles geht - und sollte doch noch ein ganz spezielles Feature fehlen, so lässt
+es sich leicht hinzufügen, da die CometVisu ein Open Source Projekt ist.
 
-It only requires a web browser to display it and a web server as well as a 
-backend it can communicate with. The web server can be quite small (routers
-should already have enough power) as it is only serving static content. For 
-extended features it should support PHP, but that is optional and not required.
+Voraussetzungen
+---------------
 
-Herunterladen:
-==============
+Die wichtigstes Komponente zur Nutzung der CometVisu benutzen Sie gerade eben:
+den Webbrowser.
 
-The latest releases can be downloaded at:
+Die CometVisu nutzt reines Web 2.0 (HTML5, JavaScript) - ohne Plugins oder gar Programme
+die auf jedem Gerät installiert werden müssten. Seit der ersten Version in 2010 -
+als erste Visualisierung überhaupt - zeigt die CometVisu, dass auch so in 
+Echtzeit alle Anzeigen möglich sind.
 
-    https://github.com/CometVisu/CometVisu/releases
+Durch die Wahl von Web 2.0 sind alle Geräte mit modernen Browsern mögliche
+Endgeräte: sei es Windows, Mac oder Linux auf dem Desktop oder Touch Panel in
+der Wand, sei es Android oder iOS.  
+Auf den mobilen Geräten ist keine App notwendig, der integrierte Browser reicht
+vollkommen aus.[^WebApp]
+
+[^WebApp]: 
+    Die CometVisu unterstützt zur optimierten Darstellung und erhöhtem
+    Bedienkomfort die Installation als WebApp.
+
+
+Zur Anbindung des Smart Homes ist ein "Server" notwendig, bei dem jedoch bereits
+einfachste Hardware ausreichend ist: von einem Router über die beliebsten 
+Raspberry Pi bis hin zu einem vollwertigen Server ist alles möglich.
+
+Kein Interesse auf Intallation und Wartung eines eigenen Servers? Es gibt auch
+kommerzielle Appliances auf denen die CometVisu bereits fertig lauffähig 
+installiert ist.[^KommerzielleAngebote]
+
+[^KommerzielleAngebote]:
+    Folgende Appliances nutzen die CometVisu:
     
-Note: When you own a WireGate the CometVisu comes already pre-installed.
-You will only need to download a new version from GitHub when the shipped version
-is outdated (it usually gets updated rather quickly, so try a system update 
-first) or you want to start CometVisu development.
+    * [WireGate](https://shop.wiregate.de/wiregate/multifunktionsgateway.html) von [Elaborated Networks](http://wiregate.de/)
+    * [Smart Visu Server](http://www.jung.de/5282/produkte/neuheiten/smart-visu-server/) von [JUNG](http://www.jung.de/)
 
-Installation:
-=============
-
-Please see the [INSTALL](./INSTALL) file.
-
-Dokumentation:
-==============
-
-The documentation and latest information can be found at:
+    Hinweis: Das CometVisu Projekt ist unabhängig von diesen Anbietern.
     
-http://www.cometvisu.org/
-
-The new user documentation (work in progress) can be found at http://test.cometvisu.org/CometVisu/de/manual/index.html  
-The API documentation can be found at: http://test.cometvisu.org/CometVisu/api/index.html  
-    
-Unterstützung:
-==============
-
-To discuss with the developers you can use the the KNX User Forum
-at 
-
-https://knx-user-forum.de/forum/supportforen/cometvisu
-
-(spoken languages are German and English)
-
-Voraussetzungen:
-================
-
-There are currently two different backends widely used: 
-
-1. eibread-cgi / eibwrite-cgi are directly communicating with the eibd / knxd to have direct access to the KNX bus.
-2. OpenHAB can also be used as a backend.
-
-As extended functionality the diagram plugin can be used. This will require 
-a rrdtool installation with the added "fetchj" feature.
-
-**Notes on the KNX-backend**  
-The KNX-backend uses  
-/usr/lib/cgi-bin/l : a dummy-login  
-/usr/lib/cgi-bin/r : a symlink to /usr/bin/eibread-cgi  
-/usr/lib/cgi-bin/w : a symlink to /usr/bin/eibwrite-cgi  
-eibread/write-cgi are part of a modified eibd-clients package here:  
-http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/e/  
-(source: bcusdk)  
-
-**Important note on diagram-backend**  
-It uses a modified version of rrdtool, adding a "fetchj" option.  
-You can find source and Debian-packages here:  
-http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/r/  
-http://repo.wiregate.de/wiregate/pool/wiregate-1.0/main/libr/  
+Die CometVisu auf dem Server spricht nun entweder mit einem [KNX](https://www.knx.org/)
+Bus-System oder über [OpenHAB](http://www.openhab.org/) mit allen dort
+unterstützten Systemen wie EnOcean, HomeMatic, Hue, RWE Smarthome, ...
