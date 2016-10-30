@@ -42,3 +42,24 @@ Facts
 
 Features
 ========
+
+Bei der CometVisu wird die Visu aus so genannten Widgets zusammen gesetzt. Diese
+werden in einer XML basierten Konfigurationsdatei zusammengestellt, die mit dem 
+in der CometVisu integrierten Editor bearbeitet werden kann.
+
+![Editor Beispiel](http://test.cometvisu.org/CometVisu/de/latest/manual/_images/de_config_widgets_switch_index_editor_attributes.png 'Editor Beispiel')
+
+Die Widgets sind die Bedienelemente für alle üblichen Aufgaben. Die Liste der
+Verfügbaren Widgets steht im [Handbuch]({{ site.t[page.lang].manual.url }})
+und umfasst unter anderem:
+
+* Switch
+* Slider
+
+Erweiterte Funktionen können über Plugins genutzt werden. Hierdurch werden
+Widgets bereit gestellt, die entweder mehr Ressourcen benötigen oder die nur
+für einen eingeschränkten Nutzerkreis relevant sind. Zu den Plugins gehören
+beispielsweise:
+
+* Diagram
+* ColorChooser
