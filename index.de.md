@@ -4,6 +4,12 @@ ref: index
 lang: de
 ---
 
+Dummy Seite
+===========
+
+Old Stuff
+=========
+
 {% include githubhandler.html %}
 
 Die neueste Version ist {{ newestVersion }}.
