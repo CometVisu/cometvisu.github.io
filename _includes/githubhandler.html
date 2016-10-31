@@ -11,7 +11,7 @@ Get the version number of the latest release:
 Get the table of all contributors:
 {% endcomment %}
 {% capture contributorsTable %}
-{% for contributor in site.github.contributors %}
+{% for contributor in site.data.contributors %}
 <div class="contributor" itemscope itemtype="http://schema.org/Person">
 <a href="{{ contributor.html_url }}" itemprop="name">{{ contributor.login }}</a>
 <meta itemprop="homeLocation" content="github" />

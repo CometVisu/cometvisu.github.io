@@ -39,3 +39,13 @@ done
 ### Manual data about widgets and plugins
 
 curl -L https://raw.githubusercontent.com/CometVisu/CometVisu/gh-pages/CVElements.yml > _data/CVElements.yml
+
+##############################################################################
+### Step 3:
+###
+### Get contributors from GitHub for CometVisu/CometVisu - this must be done
+### semi automatic at the moment, as site.github.contributors does only
+### contian the information for the repository CometVisu/cometvisu.github.io
+### and no transversal is possible at the moment
+
+curl -L https://api.github.com/repos/CometVisu/CometVisu/contributors > _data/contributors.json

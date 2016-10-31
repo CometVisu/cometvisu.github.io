@@ -65,6 +65,8 @@ t:
       pageType: "Creative Commons Attribution 4.0 International license"
       codeExplain: "The CometVisu code is licensed under the GPLv3"
     latestNews: "Latest news:"
+    maintainedBy: "is maintained by"
+    author: "Christian Mayer and the CometVisu contributers"
   de:
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     index:
@@ -98,6 +100,8 @@ t:
       pageType: "Creative Commons Attribution 4.0 International Lizenz"
       codeExplain: "Der CometVisu Code steht unter der GPLv3 Lizenz"
     latestNews: "Letzte Neuigkeiten:"
+    maintainedBy: "wird gepflegt durch"
+    author: "Christian Mayer und alle Beitragende der CometVisu"
       
 # Collections - screenshot
 collections:
