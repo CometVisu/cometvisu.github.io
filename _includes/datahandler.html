@@ -4,7 +4,7 @@
 {%   capture widgetlist %}
 {%     for widget in CVElements.widgets %}
 {%       if widget.manual contains page.lang %}
-[{{        widget.name }}]({{ widget.manual[page.lang] }})
+[{{        widget.name }}]({{ widget.manual[page.lang] | prepend: site.manualurl }})
 {%       else %}
 {{         widget.name }}
 {%       endif %}
@@ -20,7 +20,7 @@
 {%   capture pluginlist %}
 {%     for plugin in CVElements.plugins %}
 {%       if plugin.manual contains page.lang %}
-[{{        plugin.name }}]({{ plugin.manual[page.lang] }})
+[{{        plugin.name }}]({{ plugin.manual[page.lang] | prepend: site.manualurl }})
 {%       else %}
 {{         plugin.name }}
 {%       endif %}
