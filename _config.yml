@@ -34,6 +34,7 @@ t:
     tagline: "The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)"
     index:
       url: "/"
+      name: "The smart home visualisation"
     features:
       name: "Features"
       url: "/features"
@@ -65,6 +66,7 @@ t:
   de:
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     index:
+      name: "Die Smart Home Visualisierung"
       url: "/index.de"
     features:
       name: "Facts &amp; Features"

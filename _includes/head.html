@@ -10,37 +10,41 @@ Fill global variable to make multi language handling easier:
   <meta charset="UTF-8">
   <title>{{ page.title | default: this_t.name }} - CometVisu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="{{ site.baseurl }}/media/comet_16x16_ff8000.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/media/comet_webapp_icon_76.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/media/comet_webapp_icon_120.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/media/comet_webapp_icon_152.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="{{ site.baseurl }}/media/comet_webapp_icon_167.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/comet_webapp_icon_180.png">
-  <meta name="theme-color" content="#157878">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="icon" href="{{ site.github.url }}/media/comet_16x16_ff8000.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.github.url }}/media/comet_webapp_icon_76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.github.url }}/media/comet_webapp_icon_120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.github.url }}/media/comet_webapp_icon_152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="{{ site.github.url }}/media/comet_webapp_icon_167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.github.url }}/media/comet_webapp_icon_180.png">
+  <meta name="theme-color" content="#0058d0">
+  <link rel="stylesheet" href="{{ site.github.url }}/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/cometvisu.css">
+  <link rel="stylesheet" href="{{ site.github.url }}/css/cometvisu.css">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+    <meta property="og:locale:alternate" content="{{ post.lang }}_{{ post.lang | upcase }}" />
     {% if post.lang == "en" %}{% assign xdefault = post.url %}{% endif %}
   {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
-    {% if page.lang == "en" %}{% assign xdefault = page.url %}{% endif %}
+  {% for thispage in pages %}
+    <link rel="alternate" hreflang="{{ thispage.lang }}" href="{{ thispage.url }}" />
+    <meta property="og:locale:alternate" content="{{ thispage.lang }}_{{ thispage.lang | upcase }}" />
+    {% if page.lang == "en" %}{% assign xdefault = thispage.url %}{% endif %}
   {% endfor %}
   {% if xdefault.size > 0 %}
     <link rel="alternate" hreflang="x-default" href="{{ xdefault }}" />
   {% endif %}
   <!-- manual adaption from Jekyll SEO -->
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:site_name" content="CometVisu">
+  <meta property="og:title" content="{{ page.title | default: this_t.name }}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ site.github.url }}/media/comet_icon_512x512_ff8000.png">
   <meta property="og:url" content="{{ page.url }}">
   <link rel="canonical" href="{{ page.url }}">
   <meta property="og:description" content="{{ site.t[page.lang].tagline }}">
+  <meta property="og:site_name" content="CometVisu Homepage">
+  <meta property="og:locale" content="{{ page.lang }}_{{ page.lang | upcase }}" />
   <meta name="keywords" content="cometvisu smart smartbuilding smarthome visu visualisation knx openhab">
-  <meta property="og:type" content="article">
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
