@@ -5,8 +5,8 @@ layout: default
 {% include posthandler.html %}
 
 <div itemscope itemtype="https://schema.org/BlogPosting">
-  <meta itemprop="creator" content="{{ site.author.name }}">
-  <meta itemprop="author" content="{{ site.author.name }}">
+  <meta itemprop="creator" content="{{ site.t[page.lang].author }}">
+  <meta itemprop="author" content="{{ site.t[page.lang].author }}">
   <meta itemprop="license" content="https://creativecommons.org/licenses/by/4.0/">
   <link itemprop="mainEntityOfPage" href="{{ site.baseurl }}{{ page.url }}" />
   <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">

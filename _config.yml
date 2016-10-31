@@ -6,14 +6,8 @@ tagline:      The CometVisu open source development project for a building autom
 baseurl:      http://test.cometvisu.org
 manualurl:    http://test.cometvisu.org/CometVisu
 
-# About/contact
-author:
-  name:       Christian Mayer and the CometVisu contributers
-  url:        http://test.cometvisu.org
-
 # Gems
 gems:
-#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-github-metadata
 
