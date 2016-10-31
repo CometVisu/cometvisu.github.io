@@ -17,6 +17,8 @@ gems:
 
 #Others
 markdown: kramdown
+kramdown:
+  hard_wrap: false
 permalink: /news/:year/:month/:day/:title
 
 # jekyll-github-metadata data:

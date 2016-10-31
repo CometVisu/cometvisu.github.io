@@ -4,6 +4,8 @@ ref: features
 lang: de
 ---
 
+{% include datahandler.html %}
+
 Facts
 =====
 
@@ -53,13 +55,11 @@ Die Widgets sind die Bedienelemente für alle üblichen Aufgaben. Die Liste der
 Verfügbaren Widgets steht im [Handbuch]({{ site.t[page.lang].manual.url }})
 und umfasst unter anderem:
 
-* Switch
-* Slider
+{{ widgetlist }}
 
 Erweiterte Funktionen können über Plugins genutzt werden. Hierdurch werden
 Widgets bereit gestellt, die entweder mehr Ressourcen benötigen oder die nur
 für einen eingeschränkten Nutzerkreis relevant sind. Zu den Plugins gehören
 beispielsweise:
 
-* Diagram
-* ColorChooser
+{{ pluginlist }}

@@ -1,0 +1,81 @@
+widgets:
+  - name: "Audio"
+    description:
+      en: "With this widget, an audio file can be integrated into the Visu, which can be played by a GA."
+      de: "Mit diesem Widget kann in die Visu ein Audio-File eingebunden werden, das sich durch eine GA abspielen lässt."
+    manual:
+      en: "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/audio/index.html"
+      de: "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/audio/index.html"
+    screenshot: "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/audio_simple.png"
+  - name: "Break"
+    description:
+      en: ""
+      de: "Fügt der Visu einen Zeilenumbruch hinzu (wird evt. nicht von allen Browsern korrekt interpretiert)"
+  - name: "DesignToggle"
+    description:
+      en: "Adds a button to the Visu that allows you to change the design."
+      de: "Fügt der Visu eine Schaltfläche hinzu, mit der das Design gewechselt werden kann."
+    manual:
+      en: "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/designtoggle/index.html"
+  - name: "Group"
+    description:
+      en: ""
+      de: ""
+  - name: "Image"
+    description:
+      en: ""
+      de: "Fügt der Visu ein statisches Bild oder ein Kamerabild hinzu."
+  - name: "ImageTrigger"
+    description:
+      en: "Adds a clickable symbol to the Visu. This may be e.g. For reminders such as birthdays or garbage disposal."
+      de: "Fügt der Visu ein klickbares Symbol hinzu. Dies kann z.B. für Erinnerungen wie Geburtstage oder Müllabfuhr verwendet werden."
+  - name: "Include"
+    description:
+      en: ""
+      de: "Ermöglicht es, die visu_config.xml in mehrere Dateien aufzuteilen und die Teile über include wieder zusammenzuführen."
+  - name: "Info"
+    description:
+      en: ""
+      de: "Fügt der Visu ein dynamisches Feld hinzu, dass Werte vom BUS darstellen kann. z.B. 14-Byte-Text oder Zählerstände."
+  - name: "InfoAction"
+    description:
+      en: "Enables the combination of an illustrative and usable widgets."
+      de: "Ermöglich die Kombination eines darstellenden und bedienbaren Widgets."
+    manual:
+      de: "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/infoaction/index.html"
+    screenshot:
+      de: "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/infoaction_lights.png"
+      en: "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/infoaction_lights.png"
+  - name: "InfoTrigger"
+    description:
+      en: "Adds an element to the Visu that contains two buttons and a value indication for feedback from the BUS. (E.g. For multimedial control."
+      de: "Fügt der Visu ein Element hinzu, dass zwei Schaltflächen und eine Wertanzeige für Rückmeldungen vom BUS enthält. z.B. für Multimediasteuerungen."
+  - name: "Line"
+    description:
+      en: ""
+      de: "Fügt der Visu eine horizontale Linie hinzu, um die Visuseite in einzelne Bereiche zu unterteilen."
+  - name: "MultiTrigger"
+    description:
+      en: "Adds a widget with 4 buttons to the Visu. Thus, e.g. Change the operating mode of the heating system (Comfort -> Night -> Absent -> Frost protection) or create scene functions."
+      de: "Fügt der Visu ein Widget mit 4 Schaltflächen hinzu. Damit kann man z.B. die Betriebsart der Heizung umstellen (Komfort -> Nacht -> Abwesend -> Frostschutz) oder Szenenfunktionen realisieren."
+  - name: "NavBar"
+    description:
+      en: ""
+      de: "Mit dem Widget navbar kann man der gesamten Visu ein Navigationsmenü hinzu fügen. Das Menü lässt sich an einer Seite (oben, unten, link, rechts darstellen. Die Navigation durch die Visu lässt sich damit strukturieren."
+  - name: "Page"
+    description:
+      en: ""
+      de: "Erstellt eine neue Visuseite und fügt der aktuellen Seite einen entsprechenden Link hinzu."
+plugins:
+  - name: "ColorChooser"
+    description:
+      en: "Color selection wheel for RGB illumination"
+      de: "Farb-Auswahl-Rad für RGB-Beleuchtung"
+    manual:
+      de: "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/colorchooser/index.html"
+  - name: "Diagram"
+    description:
+      en: "RRD based graphs"
+      de: "RRD-basierte Diagramme"
+    manual:
+      en: "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/diagram/index.html"

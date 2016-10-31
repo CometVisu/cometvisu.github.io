@@ -1,10 +1,12 @@
-{% comment %}
+{% capture hide %} --- use a wasted capture to prevent empty output lines
+{%   comment %} --------------------------------------------------------------
 Fill global variable to make multi language handling easier:
-{% endcomment %}
-{% assign site_t=site.t[page.lang] %}
-{% assign this_t=site_t[page.ref] %}
-{% comment %} ------------------------------------------------ {% endcomment %}
-{% include posthandler.html %}
+{%   endcomment %}
+{%   assign site_t=site.t[page.lang] %}
+{%   assign this_t=site_t[page.ref] %}
+{%   comment %} ---------------------------------------------- {% endcomment %}
+{%   include posthandler.html %}
+{% endcapture %}
   <meta charset="UTF-8">
   <title>{{ page.title | default: this_t.name }} - CometVisu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
