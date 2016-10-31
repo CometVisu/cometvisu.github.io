@@ -67,6 +67,7 @@ t:
     latestNews: "Latest news:"
     maintainedBy: "is maintained by"
     author: "Christian Mayer and the CometVisu contributers"
+    commits: "commits"
   de:
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     index:
@@ -102,6 +103,7 @@ t:
     latestNews: "Letzte Neuigkeiten:"
     maintainedBy: "wird gepflegt durch"
     author: "Christian Mayer und alle Beitragende der CometVisu"
+    commits: "Beiträge"
       
 # Collections - screenshot
 collections:
