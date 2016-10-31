@@ -3,17 +3,34 @@
 {%   assign CVElements = site.data.CVElements %}
 {%   capture widgetlist %}
 {%     for widget in CVElements.widgets %}
-{%       if widget.manual contains page.lang %}[{{ widget.name }}]({{ widget.manual[page.lang] }})
+{%       if widget.manual contains page.lang %}
+[{{        widget.name }}]({{ widget.manual[page.lang] }})
 {%       else %}
 {{         widget.name }}
 {%       endif %}
-: {{ widget.description[page.lang] }}{% if widget contains "screenshot" %}  {% assign screenshot = widget.screenshot[page.lang] %}{% if screenshot == null %}{% assign screenshot = widget.screenshot %}{% endif %}
-![{{ widget.name }}]({{ screenshot }})
-{% endif %}
-{% endfor %}
+: {{     widget.description[page.lang] }}{% if widget contains "screenshot" %}  {% 
+           assign screenshot = widget.screenshot[page.lang] %}{%
+           if screenshot == null %}{% 
+             assign screenshot = widget.screenshot %}{% 
+           endif %}
+  ![{{ widget.name }}]({{ screenshot }})
+{%       endif %}
+{%     endfor %}
 {%   endcapture %}
 {%   capture pluginlist %}
 {%     for plugin in CVElements.plugins %}
-* {{ plugin.name }} - {{ plugin.description.de }}{% endfor %}
+{%       if plugin.manual contains page.lang %}
+[{{        plugin.name }}]({{ plugin.manual[page.lang] }})
+{%       else %}
+{{         plugin.name }}
+{%       endif %}
+: {{     plugin.description[page.lang] }}{% if plugin contains "screenshot" %}  {% 
+           assign screenshot = plugin.screenshot[page.lang] %}{%
+           if screenshot == null %}{% 
+             assign screenshot = plugin.screenshot %}{% 
+           endif %}
+  ![{{ plugin.name }}]({{ screenshot }})
+{%       endif %}
+{%     endfor %}
 {%   endcapture %}
 {% endcapture %}
