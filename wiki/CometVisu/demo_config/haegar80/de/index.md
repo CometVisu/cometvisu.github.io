@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/manual/config/examples/haegar80.html
+redirect_to: /CometVisu/de/latest/manual/config/examples/haegar80.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/manual/install/install-dev.html
+redirect_to: /CometVisu/de/latest/manual/install/install-dev.html
 ---
 

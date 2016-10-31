@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/Iframe
+redirect_to: /CometVisu/de/latest/manual/config/widgets/web/index.html
 ---
 

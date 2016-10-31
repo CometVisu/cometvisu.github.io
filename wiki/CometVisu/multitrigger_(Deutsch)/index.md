@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/multitrigger_(Deutsch)
+redirect_to: /CometVisu/de/latest/manual/config/widgets/multitrigger/index.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/imagetrigger/de
+redirect_to: /CometVisu/de/latest/manual/config/widgets/imagetrigger/index.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/manual/config/index.html
+redirect_to: /CometVisu/de/latest/manual/config/index.html
 ---
 

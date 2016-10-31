@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: http://www.cometvisu.de/wiki/CometVisu/0.8.x/widgets/pushbutton/de/
+redirect_to: /CometVisu/de/latest/manual/config/widgets/pushbutton/index.html
 ---
 

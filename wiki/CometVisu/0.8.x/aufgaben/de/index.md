@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/manual/colab/todos.html
+redirect_to: /CometVisu/de/latest/manual/colab/todos.html
 ---
 

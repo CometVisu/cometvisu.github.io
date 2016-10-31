@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/manual/config/examples/swiss.html
+redirect_to: /CometVisu/de/latest/manual/config/examples/swiss.html
 ---
 
