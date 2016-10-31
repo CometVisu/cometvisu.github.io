@@ -13,6 +13,7 @@
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/colorchooser/index.html"
   "name": "ColorChooser"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/colorchooser_simple.png"
 - "description":
     "de": "RRD-basierte Diagramme"
     "en": "RRD based graphs"
@@ -31,6 +32,7 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/gauge/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/gauge/index.html"
   "name": "Gauge"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/gauge_simple.png"
 - "description":
     "de": "Darstellung des Strom-Spektrums"
     "en": "Representation of the current spectrum"
@@ -38,6 +40,7 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/powerspectrum/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/powerspectrum/index.html"
   "name": "PowerSpectrum"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/powerspectrum.png"
 - "description":
     "de": "RSS"
     "en": "RSS"
@@ -85,7 +88,9 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/audio/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/audio/index.html"
   "name": "Audio"
-  "screenshot": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/audio_example.png"
+  "screenshot":
+    "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/audio_simple.png"
+    "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/audio_example.png"
 - "description":
     "de": "Fügt der Visu einen Zeilenumbruch hinzu (wird evt. nicht von allen Browsern korrekt interpretiert)"
     "en": "Adds a line break to the Visu (possibly not interpreted correctly by all browsers)"
@@ -135,7 +140,9 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/info/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/info/index.html"
   "name": "Info"
-  "screenshot": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/info_temp.png"
+  "screenshot":
+    "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/info_simple.png"
+    "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/info_temp.png"
 - "description":
     "de": "Ermöglich die Kombination eines darstellenden und bedienbaren Widgets."
     "en": "Enables the combination of an illustrative and usable widgets."
@@ -160,6 +167,7 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/line/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/line/index.html"
   "name": "Line"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/line_simple.png"
 - "description":
     "de": "Fügt der Visu ein Widget mit 4 Schaltflächen hinzu. Damit kann man z.B. die Betriebsart der Heizung umstellen (Komfort -> Nacht -> Abwesend -> Frostschutz) oder Szenenfunktionen realisieren."
     "en": "Adds a widget with 4 buttons to the Visu. Thus, e.g. Change the operating mode of the heating system (Comfort -> Night -> Absent -> Frost protection) or create scene functions."
@@ -198,12 +206,14 @@
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/rgb/index.html"
   "name": "RGB"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/rgb_simple.png"
 - "description":
     "de": "Mit dem Widget refresh wird der Visu ein Schalter hinzu gefügt, dessen Betätigung die Visu im Browser neu laden lässt??"
     "en": "With the widget refresh, the Visu is added a switch, which allows the Visu to be reloaded in the browser?"
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/refresh/index.html"
   "name": "Refresh"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/refresh_simple.png"
 - "description":
     "de": "Mit dem Widget reload wird der Visu ein Schalter hinzu gefügt, dessen Betätigung die Visu im Browser neu laden lässt??"
     "en": "With the reload widget, the Visu is added a switch, which allows to reload the Visu in the browser?"
@@ -216,6 +226,7 @@
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/slide/index.html"
   "name": "Slide"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/slide_simple.png"
 - "description":
     "de": "Fügt der Visu eine Schaltfläche hinzu, mit der z.B. Schaltaktionen ausgelöst werden können. Der Switch wird typisch für EIN/AUS Aktionen benutzt. (z.B. Licht, Steckdosen etc.)"
     "en": "Adds a button to the Visu. Switching actions can be triggered. The switch is typically used for ON/OFF actions. (E.g., light, sockets, etc.)"
@@ -223,7 +234,9 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/switch/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/switch/index.html"
   "name": "Switch"
-  "screenshot": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/switch_example_on.png"
+  "screenshot":
+    "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/switch.png"
+    "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/_images/switch_example_on.png"
 - "description":
     "de": "Fügt der Visu ein statisches Textfeld hinzu."
     "en": "Adds a static text field to the Visu."
@@ -272,3 +285,4 @@
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/web/index.html"
   "name": "Web"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/web_simple.png"
