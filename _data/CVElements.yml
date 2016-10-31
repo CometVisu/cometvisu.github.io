@@ -119,6 +119,7 @@
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/image/index.html"
     "en": "http://test.cometvisu.org/CometVisu/en/latest/manual/config/widgets/image/index.html"
   "name": "Image"
+  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/image_simple.png"
 - "description":
     "de": "Fügt der Visu ein klickbares Symbol hinzu. Dies kann z.B. für Erinnerungen wie Geburtstage oder Müllabfuhr verwendet werden."
     "en": "Adds a clickable symbol to the Visu. This may be e.g. For reminders such as birthdays or garbage disposal."
