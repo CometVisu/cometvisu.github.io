@@ -13,7 +13,7 @@
            if screenshot == null %}{% 
              assign screenshot = widget.screenshot %}{% 
            endif %}
-  ![{{ widget.name }}]({{ screenshot }})
+  ![{{ widget.name }}]({{ screenshot | prepend: site.manualurl }})
 {%       endif %}
 {%     endfor %}
 {%   endcapture %}
@@ -29,7 +29,7 @@
            if screenshot == null %}{% 
              assign screenshot = plugin.screenshot %}{% 
            endif %}
-  ![{{ plugin.name }}]({{ screenshot }})
+  ![{{ plugin.name }}]({{ screenshot | prepend: site.manualurl }})
 {%       endif %}
 {%     endfor %}
 {%   endcapture %}

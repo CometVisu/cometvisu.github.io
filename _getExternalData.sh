@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Script to get all external data and create the necessary pages
+
+##############################################################################
+### Step 1:
+###
+### Redirect structure
+
 # Recreate the old MediaWiki based file structure and set it to redirect
 # to the old homepage
 
@@ -25,3 +32,10 @@ redirect_to: $target
 ---
 " > "wiki/$source/index.md"
 done
+
+##############################################################################
+### Step 2:
+###
+### Manual data about widgets and plugins
+
+curl -L https://raw.githubusercontent.com/CometVisu/CometVisu/gh-pages/CVElements.yml > _data/CVElements.yml

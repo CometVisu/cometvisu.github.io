@@ -4,6 +4,7 @@ tagline:      The CometVisu open source development project for a building autom
 # For local testing this must be overwritten by calling Jekyll like:
 #   jekyll serve --baseurl ''
 baseurl:      http://test.cometvisu.org
+manualurl:    http://test.cometvisu.org/CometVisu
 
 # About/contact
 author:
