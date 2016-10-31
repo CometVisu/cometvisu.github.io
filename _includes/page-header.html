@@ -1,5 +1,5 @@
 <section class="page-header">
-  <h1 class="project-name" itemprop="name"><a href="{{ site.url }}{{ site.t[page.lang].index.url }}"><img src="/media/comet_512_ff8000.png" alt="CometVisu"/></a></h1>
+  <h1 class="project-name" itemprop="name"><a href="{{ site.baseurl }}{{ site.t[page.lang].index.url }}"><img src="{{ site.baseurl }}/media/comet_512_ff8000.png" alt="CometVisu"/></a></h1>
   <h2 class="project-tagline">{{ site.t[page.lang].tagline }}</h2>
   <a href="{{ site.t[page.lang].features.url }}" class="btn">{{ site.t[page.lang].features.name }}</a>
   <a href="{{ site.t[page.lang].news.url }}" class="btn">{{ site.t[page.lang].news.name }}</a>
@@ -44,7 +44,7 @@
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {{ site.t[page.lang].languageSelect }}:
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.github.url }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.github.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
