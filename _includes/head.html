@@ -30,13 +30,13 @@ Fill global variable to make multi language handling easier:
   {% for thispage in pages %}
     <link rel="alternate" hreflang="{{ thispage.lang }}" href="{{ thispage.url }}" />
     <meta property="og:locale:alternate" content="{{ thispage.lang }}_{{ thispage.lang | upcase }}" />
-    {% if page.lang == "en" %}{% assign xdefault = thispage.url %}{% endif %}
+    {% if pages.lang == "en" %}{% assign xdefault = thispage.url %}{% endif %}
   {% endfor %}
   {% if xdefault.size > 0 %}
     <link rel="alternate" hreflang="x-default" href="{{ xdefault }}" />
   {% endif %}
   <!-- manual adaption from Jekyll SEO -->
-  <meta property="og:title" content="{{ page.title | default: this_t.name }}">
+  <meta property="og:title" content="{{ page.title | default: this_t.name }} - CometVisu">
   <meta property="og:type" content="article">
   <meta property="og:image" content="{{ site.github.url }}/media/comet_icon_512x512_ff8000.png">
   <meta property="og:url" content="{{ page.url }}">
