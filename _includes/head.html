@@ -23,11 +23,16 @@ Fill global variable to make multi language handling easier:
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+    {% if post.lang == "en" %}{% assign xdefault = post.url %}{% endif %}
   {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
     <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+    {% if page.lang == "en" %}{% assign xdefault = page.url %}{% endif %}
   {% endfor %}
+  {% if xdefault.size > 0 %}
+    <link rel="alternate" hreflang="x-default" href="{{ xdefault }}" />
+  {% endif %}
   <!-- manual adaption from Jekyll SEO -->
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:site_name" content="CometVisu">
