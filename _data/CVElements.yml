@@ -206,7 +206,6 @@
   "manual":
     "de": "http://test.cometvisu.org/CometVisu/de/latest/manual/config/widgets/rgb/index.html"
   "name": "RGB"
-  "screenshot": "http://test.cometvisu.org/CometVisu/de/latest/manual/_images/rgb_simple.png"
 - "description":
     "de": "Mit dem Widget refresh wird der Visu ein Schalter hinzu gefügt, dessen Betätigung die Visu im Browser neu laden lässt??"
     "en": "With the widget refresh, the Visu is added a switch, which allows the Visu to be reloaded in the browser?"
