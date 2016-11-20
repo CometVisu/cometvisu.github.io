@@ -1,9 +1,12 @@
 # Setup
 title:        CometVisu
 tagline:      The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)
-# For local testing this must be overwritten by calling Jekyll like:
-#   jekyll serve --baseurl ''
-baseurl:      http://test.cometvisu.org
+# Note: baseurl must be the "subdirectory" for the pages, like "CometVisu"
+#       for "http://test.cometvisu.org/CometVisu".
+#       As this page is on the top level the baseurl must stay empty,
+#       cf. http://blog.parkermoore.de/2014/04/27/clearing-up-confusion-around-baseurl/
+url:          http://test.cometvisu.org
+baseurl:      
 manualurl:    http://test.cometvisu.org/CometVisu
 
 # Gems
