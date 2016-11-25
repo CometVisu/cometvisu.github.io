@@ -11,6 +11,7 @@ Fill global variable to make multi language handling easier:
   <title>{{ page.title | default: this_t.name }} - CometVisu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ site.baseurl }}/media/comet_16x16_ff8000.png" type="image/png">
+  <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/media/comet_webapp_icon_76.png">
   <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/media/comet_webapp_icon_120.png">
   <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/media/comet_webapp_icon_152.png">
@@ -18,8 +19,10 @@ Fill global variable to make multi language handling easier:
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/comet_webapp_icon_180.png">
   <meta name="theme-color" content="#0058d0">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.baseurl }}/sitemap-all.xml" />
+  <!--
   <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/cometvisu.css">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
@@ -67,3 +70,19 @@ Fill global variable to make multi language handling easier:
     ga('create', 'UA-86167164-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <!-- fix URL bar showing and hiding on mobile devices -->
+  <script>
+  window.addEventListener("DOMContentLoaded", function() {
+    var background = document.getElementById('page-header');
+      // Fix background image jump on mobile
+      if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+        window.onresize = sizeBackground;
+        sizeBackground();
+      }
+
+      function sizeBackground() {
+        background.style.height = screen.height + 'px';
+      }
+    }, false);
+  </script>
+  
