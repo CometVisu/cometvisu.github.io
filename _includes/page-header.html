@@ -35,9 +35,9 @@
 <div class="wrapper">
   {{ site.t[page.lang].languageSelect }}:
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{% if post.lang == page.lang %}[{% endif %}{{ post.lang }}{% if post.lang == page.lang %}]{% endif %}</a> {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for tpage in pages %} <a href="{{ tpage.url | prepend: site.baseurl }}" class="{{ tpage.lang }}">{% if tpage.lang == page.lang %}[{% endif %}{{ tpage.lang }}{% if tpage.lang == page.lang %}]{% endif %}</a> {% endfor %}
 </div>
   </div>
 
