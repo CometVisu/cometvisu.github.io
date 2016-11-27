@@ -2,6 +2,7 @@
 layout: page
 ref: features
 lang: de
+backdrop: /media/visu.jpg
 ---
 
 {% include datahandler.html %}

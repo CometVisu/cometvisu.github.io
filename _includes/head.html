@@ -85,4 +85,15 @@ Fill global variable to make multi language handling easier:
       }
     }, false);
   </script>
+  {% if page.backdrop %}
+  <style>
+    #page-header {
+      background: url({{ page.backdrop }}) no-repeat center center ; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  </style>
+  {% endif %}
   

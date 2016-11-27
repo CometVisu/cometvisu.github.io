@@ -2,6 +2,7 @@
 layout: page
 ref: development
 lang: de
+backdrop: /media/code.jpg
 ---
 {% include githubhandler.html %}
 
