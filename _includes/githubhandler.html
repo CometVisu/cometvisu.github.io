@@ -11,6 +11,7 @@ Get the version number of the latest release:
 Get the table of all contributors:
 {% endcomment %}
 {% capture contributorsTable %}
+<div class="contributors">
 {% for contributor in site.data.contributors %}
 <div class="contributor" itemscope itemtype="http://schema.org/Person">
 <meta itemprop="homeLocation" content="{{ site.baseurl }}" />
@@ -18,4 +19,5 @@ Get the table of all contributors:
 <a href="{{ contributor.html_url }}" itemprop="name">{{ contributor.login }}</a>
 </div>
 {% endfor %}
+</div>
 {% endcapture %}

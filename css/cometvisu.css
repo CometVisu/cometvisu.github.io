@@ -440,3 +440,19 @@ a {
     padding: 0.5em;
   }
 }
+
+.contributors {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contributor {
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 1em;
+}
+
+.contributor a {
+  white-space:nowrap;
+  display: block;
+}
