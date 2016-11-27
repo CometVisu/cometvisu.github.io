@@ -2,6 +2,7 @@
 layout: default
 ref: features
 lang: en
+backdrop: /media/visu.jpg
 ---
 
 {% include datahandler.html %}
