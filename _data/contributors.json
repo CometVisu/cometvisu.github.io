@@ -17,7 +17,7 @@
     "received_events_url": "https://api.github.com/users/ChristianMayer/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 1045
+    "contributions": 1049
   },
   {
     "login": "peuter",
@@ -37,7 +37,7 @@
     "received_events_url": "https://api.github.com/users/peuter/received_events",
     "type": "User",
     "site_admin": false,
-    "contributions": 769
+    "contributions": 805
   },
   {
     "login": "J-N-K",
@@ -240,26 +240,6 @@
     "contributions": 5
   },
   {
-    "login": "starwarsfan",
-    "id": 1954385,
-    "avatar_url": "https://avatars.githubusercontent.com/u/1954385?v=3",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/starwarsfan",
-    "html_url": "https://github.com/starwarsfan",
-    "followers_url": "https://api.github.com/users/starwarsfan/followers",
-    "following_url": "https://api.github.com/users/starwarsfan/following{/other_user}",
-    "gists_url": "https://api.github.com/users/starwarsfan/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/starwarsfan/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/starwarsfan/subscriptions",
-    "organizations_url": "https://api.github.com/users/starwarsfan/orgs",
-    "repos_url": "https://api.github.com/users/starwarsfan/repos",
-    "events_url": "https://api.github.com/users/starwarsfan/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/starwarsfan/received_events",
-    "type": "User",
-    "site_admin": false,
-    "contributions": 3
-  },
-  {
     "login": "Morg42",
     "id": 11777995,
     "avatar_url": "https://avatars.githubusercontent.com/u/11777995?v=3",
@@ -275,6 +255,26 @@
     "repos_url": "https://api.github.com/users/Morg42/repos",
     "events_url": "https://api.github.com/users/Morg42/events{/privacy}",
     "received_events_url": "https://api.github.com/users/Morg42/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 3
+  },
+  {
+    "login": "starwarsfan",
+    "id": 1954385,
+    "avatar_url": "https://avatars.githubusercontent.com/u/1954385?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/starwarsfan",
+    "html_url": "https://github.com/starwarsfan",
+    "followers_url": "https://api.github.com/users/starwarsfan/followers",
+    "following_url": "https://api.github.com/users/starwarsfan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/starwarsfan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/starwarsfan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/starwarsfan/subscriptions",
+    "organizations_url": "https://api.github.com/users/starwarsfan/orgs",
+    "repos_url": "https://api.github.com/users/starwarsfan/repos",
+    "events_url": "https://api.github.com/users/starwarsfan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/starwarsfan/received_events",
     "type": "User",
     "site_admin": false,
     "contributions": 3
