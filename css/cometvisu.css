@@ -65,6 +65,11 @@ a:hover {
   line-height: 2em
 }
 
+.main-content {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .project-name {
   text-align: center;
 }
