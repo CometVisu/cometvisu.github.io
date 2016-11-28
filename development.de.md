@@ -9,7 +9,7 @@ backdrop: /media/code.jpg
 Entwicklung
 ===========
 
-Die CometVisu ist nur durch die gemeinsamme Arbeit vieler Möglich:
+Die CometVisu ist nur durch die gemeinsamme Arbeit vieler möglich:
 
 {{ contributorsTable }}
 
@@ -17,6 +17,6 @@ Der Austausch erfolgt im [KNX User Forum](https://knx-user-forum.de/forum/suppor
 und über [Gitter](https://gitter.im/CometVisu/CometVisu_DE). Der Code wird
 auf [GitHub](https://github.com/CometVisu/CometVisu) gehosted.
 
-Um auch mit zu entwickeln, brauch man nur einen [Fork](https://github.com/CometVisu/CometVisu#fork-destination-box)
+Um auch mit zu entwickeln, braucht man nur einen [Fork](https://github.com/CometVisu/CometVisu#fork-destination-box)
 des Repositorys. Detailliertere Informationen für Entwickler gibt es im
 [CometVisu Wiki](https://github.com/CometVisu/CometVisu/wiki) auf GitHub.
