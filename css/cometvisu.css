@@ -82,6 +82,8 @@ a:hover {
 .main-content {
   padding-left: 2em;
   padding-right: 2em;
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 .project-name {
@@ -212,8 +214,6 @@ footer a:hover {
 }
 
 .contributors {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .contributor {
