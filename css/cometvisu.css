@@ -219,8 +219,8 @@ footer a:hover {
 }
 
 .thumbnail {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 250px;
+  max-height: 250px;
   margin: 1em;
   box-shadow: 4px 4px 6px #999;
 }
