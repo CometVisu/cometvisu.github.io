@@ -5,7 +5,7 @@ backdrop: /media/news.jpg
 
 {% include posthandler.html %}
 
-<div itemscope itemtype="https://schema.org/BlogPosting">
+<div itemscope itemtype="https://schema.org/BlogPosting" id="content">
   <meta itemprop="creator" content="{{ site.t[page.lang].author }}">
   <meta itemprop="author" content="{{ site.t[page.lang].author }}">
   <meta itemprop="license" content="https://creativecommons.org/licenses/by/4.0/">
@@ -16,19 +16,19 @@ backdrop: /media/news.jpg
     <meta itemprop="height" content="512">
   </div>
 
-  {% if previous %}
-  &lt;&lt;&lt;
-    <a href="{{ previous.url }}">{{ previous.title }}</a>{% unless previous.lang == page.lang %}[{{ previous.lang }}]{% endunless %}
-  {% endif %}
-  
-  {% if previous and next %}
-  ...
-  {% endif %}
-  
-  {% if next %}
-    <a href="{{ next.url }}">{{ next.title }}</a>{% unless next.lang == page.lang %}[{{ next.lang }}]{% endunless %}
-  &gt;&gt;&gt;
-  {% endif %}
+  <div class="prevnext">
+    {% if previous %}
+      <a href="{{ previous.url }}#content">&lt;&lt;&lt; {{ previous.title }}</a>{% unless previous.lang == page.lang %}[{{ previous.lang }}]{% endunless %}
+    {% endif %}
+    
+    {% if previous and next %}
+    ...
+    {% endif %}
+    
+    {% if next %}
+      <a href="{{ next.url }}#content">{{ next.title }}{% unless next.lang == page.lang %}</a>[{{ next.lang }}]<a href="{{ next.url }}">{% endunless %} &gt;&gt;&gt;</a>
+    {% endif %}
+  </div>
   
 <h1 itemprop="headline">{{ page.title }}</h1>
 <p class="meta">

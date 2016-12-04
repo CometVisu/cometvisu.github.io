@@ -49,6 +49,7 @@ footer {
   background-color: #444;
   color: #999;
   padding: 1em 0.5em 1em 0.5em;
+  margin-top: 3em;
 }
 
 footer .site-generated-on {
@@ -86,7 +87,8 @@ a:hover {
   margin: 0 auto;
 }
 
-.project-name {
+.project-name,
+.prevnext {
   text-align: center;
 }
 
