@@ -239,3 +239,24 @@ footer a:hover {
   margin: 1em;
   box-shadow: 4px 4px 6px #999;
 }
+
+.widgetlist .sh {
+  text-shadow: 2px 2px 2px #999;
+  vertical-align: 0.2em;
+  margin-left: 0.1em;
+}
+
+.widgetlist p img {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.1s linear;
+  margin-top: 0.5em;
+}
+
+.widgetlist p:hover img {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.1s linear;
+  box-shadow: 5px 5px 10px;
+}

@@ -8,7 +8,7 @@
 {%       else %}
 {{         widget.name }}
 {%       endif %}
-: {{     widget.description[page.lang] }}{% if widget contains "screenshot" %}  {% 
+: {{     widget.description[page.lang] }}{% if widget contains "screenshot" %}<span class="sh">&#9632;</span>  {% 
            assign screenshot = widget.screenshot[page.lang] %}{%
            if screenshot == null %}{% 
              assign screenshot = widget.screenshot %}{% 
@@ -24,7 +24,7 @@
 {%       else %}
 {{         plugin.name }}
 {%       endif %}
-: {{     plugin.description[page.lang] }}{% if plugin contains "screenshot" %}  {% 
+: {{     plugin.description[page.lang] }}{% if plugin contains "screenshot" %}<span class="sh">&#9632;</span>  {% 
            assign screenshot = plugin.screenshot[page.lang] %}{%
            if screenshot == null %}{% 
              assign screenshot = plugin.screenshot %}{% 
