@@ -175,6 +175,13 @@ footer a:hover {
 
 /* responsive rearrange header */
 @media screen and (max-width: 65em) {
+  #topline {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 5px #000;
+  }
+  
   .breadcrumb {
     display: none;
   }
@@ -194,8 +201,11 @@ footer a:hover {
     position: relative;
     font-size: 2em;
     float: right;
+    /*
     padding: 0 0.2em 0.1em 1em;
     top: -0.1em;
+    */
+    padding: 0 0.2em 0em 1em;
   }
 
   #menu-toggle:checked + .buttons {
@@ -212,6 +222,10 @@ footer a:hover {
     text-align: left;
     margin: 0.3em;
     padding: 0.5em;
+  }
+  
+  .project-name {
+    padding-top: 1em;
   }
 }
 
