@@ -4,6 +4,7 @@ title: "CometVisu release 0.8.1"
 date: 2014-02-08
 lang: en
 ref: post140208
+backdrop: /media/news.jpg
 ---
 
 Historic release

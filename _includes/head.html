@@ -85,7 +85,9 @@ Fill global variable to make multi language handling easier:
       }
     }, false);
   </script>
-  {% if page.backdrop %}
+  {% if page.backdrop %}{% assign backdrop = page.backdrop %}{% endif %}
+  {% if post.backdrop %}{% assign backdrop = post.backdrop %}{% endif %}
+  {% if backdrop %}
   <style>
     #page-header {
       background: url({{ page.backdrop }}) no-repeat center center ; 

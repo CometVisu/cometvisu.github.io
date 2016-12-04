@@ -4,6 +4,7 @@ title: "CometVisu release 0.8.5"
 date: 2015-01-14
 lang: en
 ref: post150114
+backdrop: /media/news.jpg
 ---
 
 The last release when the code was hosted on SourceForge:

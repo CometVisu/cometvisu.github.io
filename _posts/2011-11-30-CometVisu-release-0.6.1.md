@@ -4,6 +4,7 @@ title: "CometVisu release 0.6.1"
 date: 2011-11-30
 lang: en
 ref: post111130
+backdrop: /media/news.jpg
 ---
 
 Historic release

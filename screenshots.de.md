@@ -2,6 +2,7 @@
 layout: gallery
 ref: gallery
 lang: de
+backdrop: /media/gallery.jpg
 ---
 
 Gallerie

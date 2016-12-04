@@ -4,6 +4,7 @@ title: "CometVisu release 0.9.1"
 date: 2016-03-13
 lang: en
 ref: post160313
+backdrop: /media/news.jpg
 ---
 
 The CometVisu project is happy to release the version 0.9.1 that can be 
