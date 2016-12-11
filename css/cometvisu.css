@@ -206,6 +206,7 @@ footer a:hover {
     top: -0.1em;
     */
     padding: 0 0.2em 0em 1em;
+    right: 0;
   }
 
   #menu-toggle:checked + .buttons {
@@ -274,4 +275,16 @@ footer a:hover {
   opacity: 1;
   transition: visibility 0.3s, opacity 0.1s linear;
   box-shadow: 5px 5px 10px;
+}
+
+.widgetlist dt a {
+  font-weight: normal;
+}
+
+.widgetlist dd {
+  margin-left: 0;
+}
+
+.widgetlist dd p {
+  margin-top: 0.2em;
 }
