@@ -85,11 +85,16 @@ a:hover {
   padding-right: 2em;
   max-width: 50em;
   margin: 0 auto;
+  overflow-x: scroll;
 }
 
 .project-name,
 .prevnext {
   text-align: center;
+}
+
+.project-name img {
+  max-width: 100%;
 }
 
 footer a {
@@ -177,7 +182,7 @@ footer a:hover {
 @media screen and (max-width: 65em) {
   #topline {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     box-shadow: 0 0 5px #000;
   }
@@ -236,6 +241,7 @@ footer a:hover {
 .contributor {
   display: inline-block;
   width: 20%;
+  min-width: 130px;
   margin-bottom: 1em;
 }
 
@@ -263,6 +269,7 @@ footer a:hover {
 }
 
 .widgetlist p img {
+  display: hidden;
   position: absolute;
   visibility: hidden;
   opacity: 0;
@@ -271,6 +278,7 @@ footer a:hover {
 }
 
 .widgetlist p:hover img {
+  display: block;
   visibility: visible;
   opacity: 1;
   transition: visibility 0.3s, opacity 0.1s linear;
