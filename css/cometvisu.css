@@ -285,6 +285,11 @@ footer a:hover {
   box-shadow: 5px 5px 10px;
 }
 
+.widgetlist dt {
+  font-size: 150%;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
 .widgetlist dt a {
   font-weight: normal;
 }
