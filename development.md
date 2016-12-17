@@ -18,5 +18,5 @@ The development discussions happen at the [KNX User Forum](https://knx-user-foru
 The code is hosted on [GitHub](https://github.com/CometVisu/CometVisu).
 
 To also start development only a [fork](https://github.com/CometVisu/CometVisu#fork-destination-box)
-of the repository is needed. Detailled information for developers are given
+of the repository is needed. Detailed information for developers are given
 in the [CometVisu Wiki](https://github.com/CometVisu/CometVisu/wiki) on GitHub.
