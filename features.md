@@ -59,7 +59,7 @@ and is containing:
 </div>
 
 The functionality can be extended by plug-ins. This allows for widgets that
-are either requiring more ressources or are only relevant for a limited
+are either requiring more resources or are only relevant for a limited
 audience. Plug-ins are:
 
 <div class="widgetlist">
