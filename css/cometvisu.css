@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
+  line-height: 150%;
 }
 
 #page-header {
@@ -288,6 +289,7 @@ footer a:hover {
 .widgetlist dt {
   font-size: 150%;
   font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  margin-top: 1em;
 }
 
 .widgetlist dt a {
