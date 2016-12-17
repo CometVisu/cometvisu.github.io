@@ -4,13 +4,12 @@ ref: about
 lang: en
 ---
 
-Dummy Seite
-===========
-
-Old Stuff
-=========
-
 About
 =====
 
-The CometVisu will run on <span itemprop="operatingSystem">any browser</span> and is available for <span itemprop="offers" itemscope itemtype="http://schema.org/Offer"><span itemprop="price" content="0.00">free</span></span> under the terms of the GPL.
+As the CometVisu is Open Source software it is the work of many. Please
+have a look at the [development](development) page for more information on the people
+behind this project and how to contact them.
+
+When you are looking for an Impressum it can be found on the German version
+of this [about](about.de) page.
