@@ -270,7 +270,7 @@ footer a:hover {
 }
 
 .widgetlist p img {
-  display: hidden;
+  display: none;
   position: absolute;
   visibility: hidden;
   opacity: 0;
