@@ -33,7 +33,7 @@ the web browser.
 The CometVisu is a pure web 2.0 (HTML5, JavaScript) application - no
 plug-ins or even applications that must be installed on all devices are required.
 Already in 2010 - as the first visualisation on the 
-market - the first version of the CometVisu proofed that real time updating 
+market - the first version of the CometVisu proved that real time updating 
 web based visualisations are possible.
 
 The choice of web 2.0 technologies allows all devices with a modern web browser
@@ -48,7 +48,7 @@ browser of the device is sufficient.[^WebApp]
     as an WebApp.
 
 To connect the visualisation to the Smart Home a "server" is required - but
-even very simple is hardware is sufficient: a router, a Raspberry Pi or even
+even very simple hardware is sufficient: a router, a Raspberry Pi or even
 a full blown server can be used.
 
 Not eager to install and administer you own server? Then you can choose between
