@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CometVisu 0.8.4 release"
+title: "CometVisu release 0.8.4"
 historic: sourceforge
 date: 2014-12-09
 lang: en
