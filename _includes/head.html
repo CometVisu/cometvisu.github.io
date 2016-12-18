@@ -27,13 +27,17 @@ Fill global variable to make multi language handling easier:
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ site.url }}{{ post.url }}" />
+    {% if post.lang != page.lang %}
     <meta property="og:locale:alternate" content="{{ post.lang }}_{{ post.lang | upcase }}" />
+    {% endif %}
     {% if post.lang == "en" %}{% assign xdefault = post.url %}{% endif %}
   {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for thispage in pages %}
     <link rel="alternate" hreflang="{{ thispage.lang }}" href="{{ site.url }}{{ thispage.url }}" />
+    {% if thispage.lang != page.lang %}
     <meta property="og:locale:alternate" content="{{ thispage.lang }}_{{ thispage.lang | upcase }}" />
+    {% endif %}
     {% if pages.lang == "en" %}{% assign xdefault = thispage.url %}{% endif %}
   {% endfor %}
   {% if xdefault.size > 0 %}
