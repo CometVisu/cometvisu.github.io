@@ -26,13 +26,13 @@ Fill global variable to make multi language handling easier:
   <link rel="stylesheet" href="{{ site.baseurl }}/css/cometvisu.css">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ site.url }}{{ post.url }}" />
     <meta property="og:locale:alternate" content="{{ post.lang }}_{{ post.lang | upcase }}" />
     {% if post.lang == "en" %}{% assign xdefault = post.url %}{% endif %}
   {% endfor %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for thispage in pages %}
-    <link rel="alternate" hreflang="{{ thispage.lang }}" href="{{ thispage.url }}" />
+    <link rel="alternate" hreflang="{{ thispage.lang }}" href="{{ site.url }}{{ thispage.url }}" />
     <meta property="og:locale:alternate" content="{{ thispage.lang }}_{{ thispage.lang | upcase }}" />
     {% if pages.lang == "en" %}{% assign xdefault = thispage.url %}{% endif %}
   {% endfor %}
@@ -43,8 +43,8 @@ Fill global variable to make multi language handling easier:
   <meta property="og:title" content="{{ page.title | default: this_t.name }} - CometVisu">
   <meta property="og:type" content="article">
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/media/comet_icon_512x512_ff8000.png">
-  <meta property="og:url" content="{{ page.url }}">
-  <link rel="canonical" href="{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <meta property="og:description" content="{{ site.t[page.lang].tagline }}">
   <meta property="og:site_name" content="CometVisu Homepage">
   <meta property="og:locale" content="{{ page.lang }}_{{ page.lang | upcase }}" />
@@ -53,10 +53,10 @@ Fill global variable to make multi language handling easier:
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
   {% if previous %}
-  <link rel="prev" href="{{ previous.url }}" title="{{ previous.title }}">
+  <link rel="prev" href="{{ site.url }}{{ previous.url }}" title="{{ previous.title }}">
   {% endif %}
   {% if next %}
-  <link rel="next" href="{{ next.url }}" title="{{ next.title }}">
+  <link rel="next" href="{{ site.url }}{{ next.url }}" title="{{ next.title }}">
   {% endif %}
   <meta property="article:publisher" content="https://www.facebook.com/CometVisu/">
   <!-- manual adaption from Jekyll SEO -->
