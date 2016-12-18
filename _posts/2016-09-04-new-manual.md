@@ -8,6 +8,6 @@ backdrop: /media/news.jpg
 ---
 
 The CometVisu project is currently reworking the homepage and the manaual.
-A first preview can be seen at [test.cometvisu.org](http://test.cometvisu.org/CometVisu/de/manual/).
+A first preview can be seen at [www.cometvisu.org](http://www.cometvisu.org/CometVisu/de/manual/).
 
 ![Handbuch](/media/manual.jpg)
