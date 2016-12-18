@@ -30,6 +30,7 @@ repository: CometVisu/cometvisu.github.io
 # Translations
 t:
   en:
+    locale: en_GB
     tagline: "The CometVisu open source development project for a building automation visualisation (e.g. KNX or OpenHAB)"
     index:
       url: "/"
@@ -66,6 +67,7 @@ t:
     author: "Christian Mayer and the CometVisu contributers"
     commits: "commits"
   de:
+    locale: de_DE
     tagline: "Das CometVisu Open Source Projekt für eine Visualisierung für Gebäudeautomatisierung (z.B. KNX oder OpenHAB)"
     index:
       name: "Die Smart Home Visualisierung"
