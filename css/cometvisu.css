@@ -179,6 +179,12 @@ footer a:hover {
   margin-top: 2rem;
 }
 
+.historic {
+  border: 1px solid #b22;
+  background-color: rgba(187, 34, 34, 0.2);
+  padding: 0.3em;
+}
+
 /* responsive rearrange header */
 @media screen and (max-width: 65em) {
   #topline {

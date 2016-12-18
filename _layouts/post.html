@@ -45,6 +45,7 @@ backdrop: /media/news.jpg
 </p>
 
 <div itemprop="articleBody">
+  {% if page.historic %}<div class="historic">This is a historic release when the CometVisu was hosted on SourceForge</div>{% endif %}
   {{ content }}
 </div>
 

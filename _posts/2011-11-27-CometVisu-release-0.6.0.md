@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CometVisu release 0.6.0"
+historic: sourceforge
 date: 2011-11-27
 lang: en
 ref: post111127
