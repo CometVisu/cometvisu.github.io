@@ -10,7 +10,7 @@ Fill global variable to make multi language handling easier:
   <meta charset="UTF-8">
   <title>{{ page.title | default: this_t.name }} - CometVisu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="{{ site.baseurl }}/media/comet_16x16_ff8000.png" type="image/png">
+  <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/media/comet_16x16_ff8000.png" type="image/png">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/media/comet_webapp_icon_76.png">
   <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/media/comet_webapp_icon_120.png">
@@ -18,7 +18,7 @@ Fill global variable to make multi language handling easier:
   <link rel="apple-touch-icon" sizes="167x167" href="{{ site.baseurl }}/media/comet_webapp_icon_167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/media/comet_webapp_icon_180.png">
   <meta name="theme-color" content="#0058d0">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.baseurl }}/sitemap-all.xml" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap-all.xml" />
   <!--
   <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
   -->
@@ -42,7 +42,7 @@ Fill global variable to make multi language handling easier:
   <!-- manual adaption from Jekyll SEO -->
   <meta property="og:title" content="{{ page.title | default: this_t.name }} - CometVisu">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="{{ site.baseurl }}/media/comet_icon_512x512_ff8000.png">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/media/comet_icon_512x512_ff8000.png">
   <meta property="og:url" content="{{ page.url }}">
   <link rel="canonical" href="{{ page.url }}">
   <meta property="og:description" content="{{ site.t[page.lang].tagline }}">
