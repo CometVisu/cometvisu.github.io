@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CometVisu release 0.5.1"
+title: "CometVisu Beta Release 0.5.1"
 historic: sourceforge
 date: 2010-11-22
 lang: en
