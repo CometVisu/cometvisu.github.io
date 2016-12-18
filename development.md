@@ -9,7 +9,7 @@ backdrop: /media/code.jpg
 Development
 ===========
 
-The CometVisu is only possibly by the work of many:
+The CometVisu is only possible through the work of many:
 
 {{ contributorsTable }}
 

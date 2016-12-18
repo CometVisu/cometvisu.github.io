@@ -10,22 +10,22 @@ backdrop: /media/visu.jpg
 Facts
 =====
 
-* The CometVisu a real time visualization with responsive design.
-* The project was founded already in 2010 and seen continuous development since.
-* The CometVisu is Open Source software and licences under GPL v3, so it's 
+* The CometVisu a real time visualization with a responsive design.
+* The project was founded already in 2010 and has seen continuous development since.
+* The CometVisu is Open Source software and licensed under GPL v3, so it's 
   available and usable without any cost.
 * It has a simple and intuitive usability.
-* The integrated editor allows the simple creation of own visualisations.
-* It comes pre shipped with multiple modern designs - and by the use of just 
-  CSS own designs can be easily created.
-* To the limitation to simple web 2.0 (HTML5, JavaScript and CSS) a modern
-  browser is sufficient to display the visualisation - may it be Windows, Mac
+* The integrated editor allows the simple creation of your own visualizations.
+* It comes pre shipped with multiple modern designs - and only CSS is required
+  to create your own designs.
+* Due to the limitation to pure web 2.0 (HTML5, JavaScript and CSS) a modern
+  browser is sufficient to display the visualization - may it be Windows, Mac
   or Linux, on a PC or Notebook, a smart phone or tablet or even a wall mounted
   touch panel display.
-* No installation of the clients is needed and no app is required. The 
+* No installation on the clients is needed and no app is required. The 
   installation as a WebApp is natively supported on mobile devices like
-  smart phones with Android or iOS is supported though.
-* The ressources requirement on the server is small - the hardware of an
+  smart phones with Android or iOS.
+* The ressources requirement on the server is quite small - the hardware of a
   router is already sufficient.
   * Only optional features require PHP support on the web server.
   * A Raspberry Pi (RPi) is the most common basis for self installed systems.
@@ -44,21 +44,21 @@ Facts
 Features
 ========
 
-The CometVisu builds the visualisation out of so called widgets. These are
-arranged within a XML based configuration file, that can be transparently
+The CometVisu builds the visualization out of so called widgets. These are
+arranged within a XML based configuration file that can be transparently
 modified with the integrated editor.
 
-![Editor Beispiel](http://test.cometvisu.org/CometVisu/de/latest/manual/_images/de_config_widgets_switch_index_editor_attributes.png 'Editor Beispiel')
+![Editor example](http://test.cometvisu.org/CometVisu/de/latest/manual/_images/de_config_widgets_switch_index_editor_attributes.png 'Editor example')
 
 The widgets are the controls for all usual tasks. The list of all available
-widgets and their used can be found in the [manual]({{ site.t[page.lang].manual.url }})
+widgets and their use can be found in the [manual]({{ site.t[page.lang].manual.url }})
 and is containing:
 
 <div class="widgetlist">
 {{ widgetlist | markdownify }}
 </div>
 
-The functionality can be extended by plug-ins. This allows for widgets that
+The functionality can be extended by plug-ins. This allows widgets that
 are either requiring more resources or are only relevant for a limited
 audience. Plug-ins are:
 
