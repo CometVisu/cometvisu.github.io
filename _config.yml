@@ -108,6 +108,10 @@ t:
 collections:
   screenshotFiles:
     descriptions:
+      - dir: "0.10.0"
+        title: 
+          en: "Release 0.10.0"
+          de: "Release 0.10.0"
       - dir: "0.9.1"
         title: 
           en: "Release 0.9.1"
