@@ -17,7 +17,7 @@ This release contains bug fixes for:
 - highly accelerated reconnections during initial loading when the backend deliveres invalid or empty responses
 - fix URL parameter `startpage`
 
-The last changes can be seen in the 
+The latest changes can be seen in the 
 [change log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.10.1/ChangeLog).
 
 Downloads
