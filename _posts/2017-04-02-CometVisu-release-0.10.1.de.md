@@ -17,8 +17,9 @@ Dieses Release enthält Bug-Fixes für:
 - Deutlich schnelleres Startverhalten wenn das Backend ungültige oder leere Antworten schickt
 - Fix für den URL-Parameter startpage
 
-Die letzten Änderungen stehen im Change Log unter
-[change log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.10.1/ChangeLog).
+Alle Änderungen können im 
+[Change Log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.10.1/ChangeLog)
+angesehen werden.
 
 Downloads
 ---------
