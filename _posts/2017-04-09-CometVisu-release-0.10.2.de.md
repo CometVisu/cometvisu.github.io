@@ -13,7 +13,7 @@ oder
 [https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.zip)
 heruntergeladen werden kann.
 
-Dieses Release erhöht die Robustheits für das rsslog-Plugin in Verbindung mit dem OpenHAB Backend.
+Dieses Release erhöht die Robustheit für das rsslog-Plugin in Verbindung mit dem OpenHAB Backend.
 
 Alle Änderungen können im 
 [Change Log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.10.2/ChangeLog)
