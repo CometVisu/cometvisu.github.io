@@ -20,3 +20,8 @@ The code is hosted on [GitHub](https://github.com/CometVisu/CometVisu).
 To also start development only a [fork](https://github.com/CometVisu/CometVisu#fork-destination-box)
 of the repository is needed. Detailed information for developers are given
 in the [CometVisu Wiki](https://github.com/CometVisu/CometVisu/wiki) on GitHub.
+
+The latest manual for the development version (nightly build) can is located
+at [http://www.cometvisu.org/CometVisu/en/latest/manual/](http://www.cometvisu.org/CometVisu/en/latest/manual/)
+and a [nightly build](https://bintray.com/cometvisu/CometVisu/CometVisu/nightlies#files)
+of the code is also available.
