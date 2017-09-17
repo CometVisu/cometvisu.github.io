@@ -80,6 +80,12 @@
     "de": "UPNP-Controller"
     "en": "UPNP Controller."
   "name": "UPNPController"
+- "description":
+    "de": "Verbesserte Integration mit dem openHAB2 Backend"
+  "manual":
+    "de": "/de/latest/manual/config/widgets/plugins/openhab/index.html"
+  "name": "openHAB"
+  "screenshot": {}
 "widgets":
 - "description":
     "de": "Mit diesem Widget kann in die Visu eine Audio-Datei eingebunden werden, die sich über eine Adresse abspielen lässt."
@@ -88,9 +94,14 @@
     "de": "/de/latest/manual/config/widgets/audio/index.html"
     "en": "/en/latest/manual/config/widgets/audio/index.html"
   "name": "Audio"
+  "screenshot": "/de/latest/manual/_images/audio_simple.png"
+- "description":
+    "de": "Das NotificationCenterBadge Widget zeigt die aktuelle Anzahl der Nachrichten in der Benachrichtungszentrale an und öffnet diese, wenn es angeklickt wird."
+  "manual":
+    "de": "/de/latest/manual/config/widgets/notificationcenterbadge/index.html"
+  "name": "Badge"
   "screenshot":
-    "de": "/de/latest/manual/_images/audio_simple.png"
-    "en": "/en/latest/manual/_images/audio_example.png"
+    "de": "/de/latest/manual/_images/notificationcenterbadge_center.png"
 - "description":
     "de": "Fügt der Visu einen Zeilenumbruch hinzu."
     "en": "Adds a line break to the visu."
@@ -111,7 +122,6 @@
   "manual":
     "en": "/en/latest/manual/config/widgets/group/index.html"
   "name": "Group"
-  "screenshot": "/en/latest/manual/_images/group_with_border.png"
 - "description":
     "de": "Fügt der Visu ein statisches Bild oder ein Kamerabild hinzu."
     "en": "Adds a static image or a live camera image to the visu."
@@ -141,9 +151,7 @@
     "de": "/de/latest/manual/config/widgets/info/index.html"
     "en": "/en/latest/manual/config/widgets/info/index.html"
   "name": "Info"
-  "screenshot":
-    "de": "/de/latest/manual/_images/info_simple.png"
-    "en": "/en/latest/manual/_images/info_temp.png"
+  "screenshot": "/de/latest/manual/_images/info_simple.png"
 - "description":
     "de": "Ermöglich die Kombination eines darstellenden und bedienbaren Widgets."
     "en": "Enables the combination of an illustrative and usable widgets."
@@ -151,14 +159,13 @@
     "de": "/de/latest/manual/config/widgets/infoaction/index.html"
     "en": "/en/latest/manual/config/widgets/infoaction/index.html"
   "name": "InfoAction"
-  "screenshot":
-    "de": "/de/latest/manual/_images/infoaction_lights.png"
-    "en": "/en/latest/manual/_images/infoaction_lights.png"
+  "screenshot": "/de/latest/manual/_images/infoaction_lights.png"
 - "description":
     "de": "Fügt der Visu ein Element hinzu, dass zwei Schaltflächen und eine Wertanzeige für Rückmeldungen vom BUS enthält. Z.B. für Multimediasteuerungen."
     "en": "Adds an element to the visu that contains two buttons and a value indication for feedback from the BUS. (E.g. for multimedia control."
   "manual":
     "de": "/de/latest/manual/config/widgets/infotrigger/index.html"
+    "en": "/en/latest/manual/config/widgets/infotrigger/index.html"
   "name": "InfoTrigger"
   "screenshot": "/de/latest/manual/_images/infotrigger_simple.png"
 - "description":
@@ -174,17 +181,21 @@
     "en": "Adds a widget with 4 buttons to the visu. Thus, e.g. change the operating mode of the heating system (Comfort -> Night -> Absent -> Frost protection) or create scene functions."
   "manual":
     "de": "/de/latest/manual/config/widgets/multitrigger/index.html"
+    "en": "/en/latest/manual/config/widgets/multitrigger/index.html"
   "name": "Multitrigger"
   "screenshot": "/de/latest/manual/_images/multitrigger_simple.png"
 - "description":
     "de": "Mit dem Widget navbar kann der gesamten Visu ein Navigationsmenü hinzu gefügt werden. Das Menü lässt sich an einer Seite (oben, unten, link, rechts) darstellen. Die Navigation durch die Visu lässt sich damit strukturieren."
     "en": "With the widget navbar, you can add a navigation menu to the entire visu. The menu can be displayed on a page (top, bottom, left, right)."
+  "manual":
+    "en": "/en/latest/manual/config/widgets/navbar/index.html"
   "name": "Navbar"
 - "description":
     "de": "Erstellt eine neue Visuseite und fügt der aktuellen Seite einen entsprechenden Link hinzu."
     "en": "Creates a new sub page and adds a corresponding link to the current page."
   "manual":
     "de": "/de/latest/manual/config/widgets/page/index.html"
+    "en": "/en/latest/manual/config/widgets/page/index.html"
   "name": "Page"
   "screenshot": "/de/latest/manual/_images/menu_expl_page.png"
 - "description":
@@ -192,6 +203,7 @@
     "en": "The pagejump widget can be used to link the visu pages. The function is similar to hyperlinks."
   "manual":
     "de": "/de/latest/manual/config/widgets/pagejump/index.html"
+    "en": "/en/latest/manual/config/widgets/pagejump/index.html"
   "name": "Pagejump"
   "screenshot": "/de/latest/manual/_images/pagejump_komplex.png"
 - "description":
@@ -199,6 +211,7 @@
     "en": "Adds a button to the visu that sends a defined value to the BUS when you press and release. E.g. pushing a 1 and releasing a 0. This makes it possible, for example, to simulate a push button to open and close a garage door, blinds or blinds."
   "manual":
     "de": "/de/latest/manual/config/widgets/pushbutton/index.html"
+    "en": "/en/latest/manual/config/widgets/pushbutton/index.html"
   "name": "PushButton"
   "screenshot": "/de/latest/manual/_images/pushbutton_simple.png"
 - "description":
@@ -206,12 +219,14 @@
     "en": "With the RGB widget you can display a colour in the visu."
   "manual":
     "de": "/de/latest/manual/config/widgets/rgb/index.html"
+    "en": "/en/latest/manual/config/widgets/rgb/index.html"
   "name": "RGB"
 - "description":
     "de": "Mit dem Widget refresh lassen sich die angezeigten Daten der Visu neu abrufen."
     "en": "With the widget refresh, the visu is added a switch, which allows the visu to reload the displayed data."
   "manual":
     "de": "/de/latest/manual/config/widgets/refresh/index.html"
+    "en": "/en/latest/manual/config/widgets/refresh/index.html"
   "name": "Refresh"
   "screenshot": "/de/latest/manual/_images/refresh_simple.png"
 - "description":
@@ -219,12 +234,14 @@
     "en": "With the reload widget, the visu is added a switch, which allows to reload the full visu in the browser."
   "manual":
     "de": "/de/latest/manual/config/widgets/reload/index.html"
+    "en": "/en/latest/manual/config/widgets/reload/index.html"
   "name": "Reload"
 - "description":
     "de": "Fügt der Visu einen horizontalen Schieberegler hinzu. Mit diesem kann z.B. gedimmt oder eine Temperatur eingestellt werden."
     "en": "Adds a horizontal slider to the visu. This can be used, for example, to dim a light or change temperature values."
   "manual":
     "de": "/de/latest/manual/config/widgets/slide/index.html"
+    "en": "/en/latest/manual/config/widgets/slide/index.html"
   "name": "Slide"
   "screenshot": "/de/latest/manual/_images/slide_simple.png"
 - "description":
@@ -234,9 +251,7 @@
     "de": "/de/latest/manual/config/widgets/switch/index.html"
     "en": "/en/latest/manual/config/widgets/switch/index.html"
   "name": "Switch"
-  "screenshot":
-    "de": "/de/latest/manual/_images/switch.png"
-    "en": "/en/latest/manual/_images/switch_example_on.png"
+  "screenshot": "/de/latest/manual/_images/switch.png"
 - "description":
     "de": "Fügt der Visu ein statisches Textfeld hinzu."
     "en": "Adds a static text field to the visu."
@@ -244,14 +259,13 @@
     "de": "/de/latest/manual/config/widgets/text/index.html"
     "en": "/en/latest/manual/config/widgets/text/index.html"
   "name": "Text"
-  "screenshot":
-    "de": "/de/latest/manual/_images/text_simple.png"
-    "en": "/en/latest/manual/_images/text_example.png"
+  "screenshot": "/de/latest/manual/_images/text_simple.png"
 - "description":
     "de": "Das toggle Widget ist ähnlich wie der Switch, kann aber mehr als zwei Zustände annehmen - dies kann z.B. für die Umschaltung von Betriebsarten der Heizung genutzt werden. Bei jedem Druck nimmt der Toggle den nächsten möglichen Zustand an."
     "en": "The toggle widget is similar to the switch, but it can take more than two states. Can be used to change the operating modes of the heating system. Each time the toggle is pressed, the toggle takes the next possible state."
   "manual":
     "de": "/de/latest/manual/config/widgets/toggle/index.html"
+    "en": "/en/latest/manual/config/widgets/toggle/index.html"
   "name": "Toggle"
   "screenshot": "/de/latest/manual/_images/toggle_simple.png"
 - "description":
@@ -259,6 +273,7 @@
     "en": "Adds a button to the visu with which exactly a defined value for a short, as well as a defined value for a long key pressure, can be sent to the BUS, e.g. for recalling and storing scenes or driving roller blinds. (Short = stop, long = drive). The address for short and long term may vary."
   "manual":
     "de": "/de/latest/manual/config/widgets/trigger/index.html"
+    "en": "/en/latest/manual/config/widgets/trigger/index.html"
   "name": "Trigger"
   "screenshot": "/de/latest/manual/_images/trigger1.png"
 - "description":
@@ -266,6 +281,7 @@
     "en": "The UrlTrigger widget adds a button to the visualization that queries data from a URL in the background."
   "manual":
     "de": "/de/latest/manual/config/widgets/urltrigger/index.html"
+    "en": "/en/latest/manual/config/widgets/urltrigger/index.html"
   "name": "URL-trigger"
   "screenshot": "/de/latest/manual/_images/urltrigger_simple.png"
 - "description":
@@ -273,15 +289,19 @@
     "en": "Adds a video or live stream to the visu. Currently, most sources do not support this yet."
   "manual":
     "de": "/de/latest/manual/config/widgets/video/index.html"
+    "en": "/en/latest/manual/config/widgets/video/index.html"
   "name": "Video"
   "screenshot": "/de/latest/manual/_images/video_simple.png"
 - "description":
     "de": "Fügt der Visu ein dynamisches Feld hinzu mit dem Daten aus WireGate Plugins dargestellt werden können."
     "en": "Adds an dynamic field to the visu that shows live information from a WireGate plugin."
+  "manual":
+    "en": "/en/latest/manual/config/widgets/wgplugininfo/index.html"
   "name": "WG_Plugin_Info"
 - "description":
     "de": "Fügt der Visu ein Fläche hinzu, in der externe Webseiten dargestellt werden können."
     "en": "Adds an area to the visu, where external websites can be displayed."
   "manual":
     "de": "/de/latest/manual/config/widgets/web/index.html"
+    "en": "/en/latest/manual/config/widgets/web/index.html"
   "name": "Web"
