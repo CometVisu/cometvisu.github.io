@@ -68,6 +68,7 @@ Fill global variable to make multi language handling easier:
   <link itemprop="applicationCategory" href="https://schema.org/WebApplication" />
   <!-- Google Analytics -->
   <script>
+    /*
     var gaProperty = 'UA-86167164-1'; 
     var disableStr = 'ga-disable-' + gaProperty; 
     if (document.cookie.indexOf(disableStr + '=true') > -1) { 
@@ -85,6 +86,7 @@ Fill global variable to make multi language handling easier:
     ga('create', 'UA-86167164-1', 'auto');
     ga('set', 'anonymizeIp', true); 
     ga('send', 'pageview');
+    */
   </script>
   <!-- fix URL bar showing and hiding on mobile devices -->
   <script>
@@ -114,62 +116,3 @@ Fill global variable to make multi language handling easier:
     }
   </style>
   {% endif %}
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script>
-  window.addEventListener("load", function(){
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#eb6c44",
-        "text": "#ffffff"
-      },
-      "button": {
-        "background": "#f5d948"
-      }
-    },
-    "position": "top",
-    "type": "opt-out",
-    onInitialise: function (status) {
-      var type = this.options.type;
-      var didConsent = this.hasConsented();
-      if (type == 'opt-in' && didConsent) {
-        // enable cookies
-      }
-      if (type == 'opt-out' && !didConsent) {
-        // disable cookies
-        gaOptout()
-      }
-    },
-    
-    onStatusChange: function(status, chosenBefore) {
-      var type = this.options.type;
-      var didConsent = this.hasConsented();
-      if (type == 'opt-in' && didConsent) {
-        // enable cookies
-      }
-      if (type == 'opt-out' && !didConsent) {
-        // disable cookies
-        gaOptout()
-      }
-    },
- 
-    onRevokeChoice: function() {
-      var type = this.options.type;
-      if (type == 'opt-in') {
-        // disable cookies
-      }
-      if (type == 'opt-out') {
-        // enable cookies
-        gaOptout()
-      }
-    },
-    "content": {
-      "message": "Diese Webseite nutzt Cookies um einen optimalen Service bereitstellen zu können.",
-      "dismiss": "Akzeptieren",
-      "deny": "Cookies ablehnen",
-      "link": "Mehr Informationen.",
-      "href": "http://cometvisu.org/about.de"
-    }
-  })});
-  </script>
