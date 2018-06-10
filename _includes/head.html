@@ -114,4 +114,62 @@ Fill global variable to make multi language handling easier:
     }
   </style>
   {% endif %}
-  
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#eb6c44",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "#f5d948"
+      }
+    },
+    "position": "top",
+    "type": "opt-out",
+    onInitialise: function (status) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+        // enable cookies
+      }
+      if (type == 'opt-out' && !didConsent) {
+        // disable cookies
+        gaOptout()
+      }
+    },
+    
+    onStatusChange: function(status, chosenBefore) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+        // enable cookies
+      }
+      if (type == 'opt-out' && !didConsent) {
+        // disable cookies
+        gaOptout()
+      }
+    },
+ 
+    onRevokeChoice: function() {
+      var type = this.options.type;
+      if (type == 'opt-in') {
+        // disable cookies
+      }
+      if (type == 'opt-out') {
+        // enable cookies
+        gaOptout()
+      }
+    },
+    "content": {
+      "message": "Diese Webseite nutzt Cookies um einen optimalen Service bereitstellen zu können.",
+      "dismiss": "Akzeptieren",
+      "deny": "Cookies ablehnen",
+      "link": "Mehr Informationen.",
+      "href": "http://cometvisu.org/about.de"
+    }
+  })});
+  </script>
