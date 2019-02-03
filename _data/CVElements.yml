@@ -1,19 +1,11 @@
 "plugins":
 - "description":
-    "de": "externen Kalendar einbinden"
-    "en": "External calendar."
-  "name": "CalendarList"
-- "description":
-    "de": "Plugin zum Darstellen der Uhrzeit von einer Adresse."
-    "en": "Widget to display the time of an address."
-  "name": "Clock"
-- "description":
     "de": "Farb-Auswahl-Rad für RGB-Beleuchtung"
-    "en": "Color selection wheel for RGB illumination."
   "manual":
     "de": "/de/latest/manual/config/widgets/plugins/colorchooser/index.html"
   "name": "ColorChooser"
-  "screenshot": "/de/latest/manual/_images/colorchooser_simple.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/colorchooser_simple.png"
 - "description":
     "de": "RRD-basierte Diagramme"
     "en": "RRD based graphs."
@@ -23,8 +15,10 @@
   "name": "Diagram"
 - "description":
     "de": "Informations-Anzeige, die beim Klick ein Diagramm öffnet"
-    "en": "Information display that opens a graph when you click on it."
+  "manual":
+    "de": "/de/latest/manual/config/widgets/plugins/diagram_info/index.html"
   "name": "Diagram_Info"
+  "screenshot": {}
 - "description":
     "de": "Zeigerinstrument"
     "en": "Pointer instrument."
@@ -34,6 +28,14 @@
   "name": "Gauge"
   "screenshot": "/de/latest/manual/_images/gauge_simple.png"
 - "description":
+    "de": "Fügt der Visu einen einfachen anklickbaren Link hinzu"
+    "en": "Add a simple clickable link that opens another website."
+  "manual":
+    "de": "/de/latest/manual/config/widgets/plugins/link/index.html"
+    "en": "/en/latest/manual/config/widgets/plugins/link/index.html"
+  "name": "Link"
+  "screenshot": "/de/latest/manual/_images/link.png"
+- "description":
     "de": "Darstellung des Strom-Spektrums"
     "en": "Graph of the spectrum of a power source."
   "manual":
@@ -42,19 +44,10 @@
   "name": "PowerSpectrum"
   "screenshot": "/de/latest/manual/_images/powerspectrum.png"
 - "description":
-    "de": "RSS"
     "en": "Display of RSS feed."
   "manual":
     "en": "/en/latest/manual/config/widgets/plugins/rss/index.html"
   "name": "RSS"
-- "description":
-    "de": "RSS"
-    "en": "Display of RSS feed."
-  "name": "RSSlog"
-- "description":
-    "de": "Demo Plugin zur Anzeige einer interaktiv animierten SVG Datei"
-    "en": "Demo plugin to show the integration of an interactive scalable vector graphic."
-  "name": "SVG"
 - "description":
     "de": "Sprachausgabe (Text-to-speech)"
     "en": "Uses the browsers built in text-to-speech engine to speak text."
@@ -74,18 +67,22 @@
     "de": "Wechselt nach gewisser Zeit der Inaktivität auf eine andere Seite"
     "en": "Changes currently displayed page after some time of inactivity."
   "manual":
+    "de": "/de/latest/manual/config/widgets/plugins/timeout/index.html"
     "en": "/en/latest/manual/config/widgets/plugins/timeout/index.html"
   "name": "Timeout"
-- "description":
-    "de": "UPNP-Controller"
-    "en": "UPNP Controller."
-  "name": "UPNPController"
 - "description":
     "de": "Verbesserte Integration mit dem openHAB2 Backend"
   "manual":
     "de": "/de/latest/manual/config/widgets/plugins/openhab/index.html"
   "name": "openHAB"
   "screenshot": {}
+- "description":
+    "de": "Router Informationen, wie Anruflisten der Fritz!Box, über TR-064."
+    "en": "Router informationen, like Fritz!Box call lists, via TR-064."
+  "manual":
+    "de": "/de/latest/manual/config/widgets/plugins/tr064/index.html"
+    "en": "/en/latest/manual/config/widgets/plugins/tr064/index.html"
+  "name": "tr064"
 "widgets":
 - "description":
     "de": "Mit diesem Widget kann in die Visu eine Audio-Datei eingebunden werden, die sich über eine Adresse abspielen lässt."
@@ -94,14 +91,17 @@
     "de": "/de/latest/manual/config/widgets/audio/index.html"
     "en": "/en/latest/manual/config/widgets/audio/index.html"
   "name": "Audio"
-  "screenshot": "/de/latest/manual/_images/audio_simple.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/audio_simple.png"
+    "en": "/en/latest/manual/_images/audio_example.png"
 - "description":
     "de": "Das NotificationCenterBadge Widget zeigt die aktuelle Anzahl der Nachrichten in der Benachrichtungszentrale an und öffnet diese, wenn es angeklickt wird."
+    "en": "The NotificationCenterBadge Widget shows the current number of messages in the notification center and opens the center when you click on it."
   "manual":
     "de": "/de/latest/manual/config/widgets/notificationcenterbadge/index.html"
+    "en": "/en/latest/manual/config/widgets/notificationcenterbadge/index.html"
   "name": "Badge"
-  "screenshot":
-    "de": "/de/latest/manual/_images/notificationcenterbadge_center.png"
+  "screenshot": "/de/latest/manual/_images/notificationcenterbadge_center.png"
 - "description":
     "de": "Fügt der Visu einen Zeilenumbruch hinzu."
     "en": "Adds a line break to the visu."
@@ -120,8 +120,12 @@
     "de": "Mit group können Widgets in einem Rahmen als Gruppe zusammengefasst werden. Die Größe der Gruppe kann über \"layout\" eingestellt werden."
     "en": "With group, widgets can be grouped together. The group can be given a size via \"layout\"."
   "manual":
+    "de": "/de/latest/manual/config/widgets/group/index.html"
     "en": "/en/latest/manual/config/widgets/group/index.html"
   "name": "Group"
+  "screenshot":
+    "de": "/de/latest/manual/_images/group_simple.png"
+    "en": "/en/latest/manual/_images/group_with_border.png"
 - "description":
     "de": "Fügt der Visu ein statisches Bild oder ein Kamerabild hinzu."
     "en": "Adds a static image or a live camera image to the visu."
@@ -151,7 +155,9 @@
     "de": "/de/latest/manual/config/widgets/info/index.html"
     "en": "/en/latest/manual/config/widgets/info/index.html"
   "name": "Info"
-  "screenshot": "/de/latest/manual/_images/info_simple.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/info_simple.png"
+    "en": "/en/latest/manual/_images/info_temp.png"
 - "description":
     "de": "Ermöglich die Kombination eines darstellenden und bedienbaren Widgets."
     "en": "Enables the combination of an illustrative and usable widgets."
@@ -159,7 +165,9 @@
     "de": "/de/latest/manual/config/widgets/infoaction/index.html"
     "en": "/en/latest/manual/config/widgets/infoaction/index.html"
   "name": "InfoAction"
-  "screenshot": "/de/latest/manual/_images/infoaction_lights.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/infoaction_lights.png"
+    "en": "/en/latest/manual/_images/infoaction_lights.png"
 - "description":
     "de": "Fügt der Visu ein Element hinzu, dass zwei Schaltflächen und eine Wertanzeige für Rückmeldungen vom BUS enthält. Z.B. für Multimediasteuerungen."
     "en": "Adds an element to the visu that contains two buttons and a value indication for feedback from the BUS. (E.g. for multimedia control."
@@ -188,6 +196,7 @@
     "de": "Mit dem Widget navbar kann der gesamten Visu ein Navigationsmenü hinzu gefügt werden. Das Menü lässt sich an einer Seite (oben, unten, link, rechts) darstellen. Die Navigation durch die Visu lässt sich damit strukturieren."
     "en": "With the widget navbar, you can add a navigation menu to the entire visu. The menu can be displayed on a page (top, bottom, left, right)."
   "manual":
+    "de": "/de/latest/manual/config/widgets/navbar/index.html"
     "en": "/en/latest/manual/config/widgets/navbar/index.html"
   "name": "Navbar"
 - "description":
@@ -251,7 +260,9 @@
     "de": "/de/latest/manual/config/widgets/switch/index.html"
     "en": "/en/latest/manual/config/widgets/switch/index.html"
   "name": "Switch"
-  "screenshot": "/de/latest/manual/_images/switch.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/switch.png"
+    "en": "/en/latest/manual/_images/switch.png"
 - "description":
     "de": "Fügt der Visu ein statisches Textfeld hinzu."
     "en": "Adds a static text field to the visu."
@@ -259,7 +270,9 @@
     "de": "/de/latest/manual/config/widgets/text/index.html"
     "en": "/en/latest/manual/config/widgets/text/index.html"
   "name": "Text"
-  "screenshot": "/de/latest/manual/_images/text_simple.png"
+  "screenshot":
+    "de": "/de/latest/manual/_images/text_simple.png"
+    "en": "/en/latest/manual/_images/text_example.png"
 - "description":
     "de": "Das toggle Widget ist ähnlich wie der Switch, kann aber mehr als zwei Zustände annehmen - dies kann z.B. für die Umschaltung von Betriebsarten der Heizung genutzt werden. Bei jedem Druck nimmt der Toggle den nächsten möglichen Zustand an."
     "en": "The toggle widget is similar to the switch, but it can take more than two states. Can be used to change the operating modes of the heating system. Each time the toggle is pressed, the toggle takes the next possible state."
@@ -296,6 +309,7 @@
     "de": "Fügt der Visu ein dynamisches Feld hinzu mit dem Daten aus WireGate Plugins dargestellt werden können."
     "en": "Adds an dynamic field to the visu that shows live information from a WireGate plugin."
   "manual":
+    "de": "/de/latest/manual/config/widgets/wgplugin_info/index.html"
     "en": "/en/latest/manual/config/widgets/wgplugininfo/index.html"
   "name": "WG_Plugin_Info"
 - "description":
