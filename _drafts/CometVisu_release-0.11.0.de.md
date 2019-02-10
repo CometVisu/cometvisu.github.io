@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "CometVisu Release 0.11.0"
-date: 2019-02-03
+title: "CometVisu Release 0.11.0 - Release Candidate 1"
+date: 2019-02-10
 lang: de
-ref: post190203
+ref: post190210
 backdrop: /media/news.jpg
 ---
 
-Das CometVisu Projekt freut sich die Version 0.11.0 zu veröffentlichen, die unter 
-[https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.tar.gz](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.tar.gz)
+Das CometVisu Projekt freut sich die Version 0.11.0-RC1 zu veröffentlichen, die unter 
+[https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.tar.gz](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.tar.gz)
 oder 
-[https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.zip)
+[https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.zip)
 heruntergeladen werden kann.
 
 Dieses Release enthält neben einer großen Umstrukturierung des Source Codes mit
@@ -35,7 +35,7 @@ Plugins:
   Anzeige von Anruflisten und des Anrufbeantworters
 
 Alle Änderungen können im 
-[Change Log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.11.0/ChangeLog)
+[Change Log](https://raw.githubusercontent.com/CometVisu/CometVisu/v0.11.0-RC1/ChangeLog)
 angesehen werden.
 
 ![Demo Mode](/media/posts/190204_screenshot_demomode.png)
@@ -43,7 +43,7 @@ angesehen werden.
 Downloads
 ---------
 
-* [Release (zip)](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.zip)
-* [Release (tar.gz)](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0/CometVisu-0.11.0.tar.gz)
-* [Source code (zip)](https://github.com/CometVisu/CometVisu/archive/v0.11.0.zip)
-* [Source code (tar.gz)](https://github.com/CometVisu/CometVisu/archive/v0.11.0.tar.gz)
+* [Release (zip)](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.zip)
+* [Release (tar.gz)](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.tar.gz)
+* [Source code (zip)](https://github.com/CometVisu/CometVisu/archive/v0.11.0-RC1.zip)
+* [Source code (tar.gz)](https://github.com/CometVisu/CometVisu/archive/v0.11.0-RC1.tar.gz)
