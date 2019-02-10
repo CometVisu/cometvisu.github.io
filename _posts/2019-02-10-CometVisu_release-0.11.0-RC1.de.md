@@ -27,7 +27,7 @@ kleineren Verbesserungen eine größere Anzahl von Erweiterungen:
 * [Eigene Dateien](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/xml-format.html#zusatzliche-dateien-einbinden)
   (JavaScript und CSS) können über die Konfig-Datei eingebunden werden
 * [Docker Container](http://www.cometvisu.org/CometVisu/de/0.11.0/manual/install/docker.html)
-* [Demo-Mode](https://www.cometvisu.org/CometVisu/de/latest/demo/)
+* [Demo-Mode](https://www.cometvisu.org/CometVisu/de/0.11.0/demo/)
 
 Plugins:
 * [OpenHAB](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/widgets/plugins/openhab/index.html)
