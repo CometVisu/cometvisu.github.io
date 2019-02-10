@@ -18,20 +18,20 @@ Migration von jQuery auf Qooxdoo, so wie einer Vielzahl von beseitigten Bugs und
 kleineren Verbesserungen eine größere Anzahl von Erweiterungen:
 * Text-Editor für Konfig-Dateien
 * Benachrichtigungen in der Visu über das [NotificationCenter und 
-  StateNotifications](https://www.cometvisu.org/CometVisu/de/latest/manual/config/notifications.html)
+  StateNotifications](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/notifications.html)
 * Optimierter Umgang mit internen Fehlern (schwerwiegende Fehler werden als Popup angezeigt)
 * Optionale [Aufzeichnung der 
-  Benutzeraktionen](https://www.cometvisu.org/CometVisu/de/latest/manual/colab/index.html#fehlerberichte-mit-log-dateien)
+  Benutzeraktionen](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/colab/index.html#fehlerberichte-mit-log-dateien)
   zur Fehler-Suche
 * Fehlersuche über Sentry-Fehlerberichte
-* [Eigene Dateien](https://www.cometvisu.org/CometVisu/de/latest/manual/config/xml-format.html#zusatzliche-dateien-einbinden)
+* [Eigene Dateien](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/xml-format.html#zusatzliche-dateien-einbinden)
   (JavaScript und CSS) können über die Konfig-Datei eingebunden werden
-* [Docker Container](http://www.cometvisu.org/CometVisu/de/latest/manual/install/docker.html)
+* [Docker Container](http://www.cometvisu.org/CometVisu/de/0.11.0/manual/install/docker.html)
 * [Demo-Mode](https://www.cometvisu.org/CometVisu/de/latest/demo/)
 
 Plugins:
-* [OpenHAB](https://www.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/openhab/index.html)
-* [TR064](https://www.cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/tr064/index.html): 
+* [OpenHAB](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/widgets/plugins/openhab/index.html)
+* [TR064](https://www.cometvisu.org/CometVisu/de/0.11.0/manual/config/widgets/plugins/tr064/index.html): 
   Anzeige von Anruflisten und des Anrufbeantworters
 
 Alle Änderungen können im 

@@ -17,20 +17,20 @@ This release contains apart from restructuring of the source code with a migrati
 multitude of fixed bugs and smaller enhancements a great amount of improvements:
 * Text editor for config files
 * Notification in the visu by the [NotificationCenter and 
-  StateNotifications](https://www.cometvisu.org/CometVisu/en/latest/manual/config/notifications.html)
-* Optimized handling of internal errors (critical errors will be showns as pop up)
+  StateNotifications](https://www.cometvisu.org/CometVisu/en/0.11.0/manual/config/notifications.html)
+* Optimized handling of internal errors (critical errors will be shown as pop up)
 * Optional [recording of user 
-  actions](https://www.cometvisu.org/CometVisu/en/latest/manual/colab/index.html#bug-reports-with-log-files)
+  actions](https://www.cometvisu.org/CometVisu/en/latest/0.11.0/colab/index.html#bug-reports-with-log-files)
   to locate errors
 * Error reporting with Sentry reports
-* Add [own files](https://www.cometvisu.org/CometVisu/en/latest/manual/config/xml-format.html#include-additional-files)
+* Add [own files](https://www.cometvisu.org/CometVisu/en/0.11.0/manual/config/xml-format.html#include-additional-files)
   (JavaScript and CSS) via the config file
-* [Docker container](http://www.cometvisu.org/CometVisu/en/latest/manual/install/docker.html)
-* [Demo mode](https://www.cometvisu.org/CometVisu/de/latest/demo/)
+* [Docker container](http://www.cometvisu.org/CometVisu/en/0.11.0/manual/install/docker.html)
+* [Demo mode](https://www.cometvisu.org/CometVisu/de/0.11.0/demo/)
 
 Plugins:
 * OpenHAB
-* [TR064](https://www.cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/tr064/index.html): 
+* [TR064](https://www.cometvisu.org/CometVisu/en/latest/0.11.0/config/widgets/plugins/tr064/index.html): 
   Show call lists and the answering machine
   
 The latest changes can be seen in the 
