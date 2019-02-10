@@ -7,7 +7,7 @@ ref: post170409
 backdrop: /media/news.jpg
 ---
 
-Das CometVisu Projekt freut sich die Version 0.10.2 zu veröffentlichen, die unter 
+Das CometVisu Projekt freut sich den Release Kandidaten der Version 0.10.2 zu veröffentlichen, die unter 
 [https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.tar.gz](https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.tar.gz)
 oder 
 [https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.10.2/CometVisu-0.10.2.zip)

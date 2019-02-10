@@ -7,7 +7,7 @@ ref: post190210
 backdrop: /media/news.jpg
 ---
 
-Das CometVisu Projekt freut sich die Version 0.11.0-RC1 zu veröffentlichen, die unter 
+Das CometVisu Projekt freut sich den Release Kandidaten der Version 0.11.0 zu veröffentlichen, der unter 
 [https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.tar.gz](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.tar.gz)
 oder 
 [https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.11.0-RC1/CometVisu-0.11.0-RC1.zip)
