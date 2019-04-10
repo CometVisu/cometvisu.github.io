@@ -15,7 +15,7 @@ diese bereits für eine Heizungsregelung verwendert werden zu kann.
 
 Gerade wer aktuell im Baustress ist und schnell eine Lösung ohne weitere
 Einarbeitung sucht, kommt so schnell ans Ziel - und kann sich gleich nebenbei
-eine Basis für die Zukünftige Visualisierung legen.
+eine Basis für die zukünftige Visualisierung legen.
 
 Das Tutorial kann auf YouToube angesehen werden:
 [![Tutorial: Erste Schritte](https://img.youtube.com/vi/ONFb_gxTaPk/0.jpg)](https://www.youtube.com/watch?v=ONFb_gxTaPk)
