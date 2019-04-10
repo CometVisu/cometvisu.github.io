@@ -21,5 +21,5 @@ The tutorial can be watched at YouTube:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YK86XVVkfDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The single steps, detailed with lots of screenshots, can be followed up in the manual:
+The single steps, detailed with lots of screenshots, can be followed up in the manual:  
 [Tutorial: First steps - a visu in half a minute](https://www.cometvisu.org/CometVisu/en/0.11/manual/tutorial/first_steps.html)
