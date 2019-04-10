@@ -15,10 +15,11 @@ control.
 
 When you are currently building your home and have no spare time you will get
 an easy to follow solution - that can also be the base for your full featured
-visu when you have time it.
+visu when you have time for it.
 
 The tutorial can be watched at YouTube:
-[![Tutorial: First steps](https://img.youtube.com/vi/YK86XVVkfDk/0.jpg)](https://www.youtube.com/watch?v=YK86XVVkfDk)
 
-The single steps are also detailed with lots of screenshots in the manual:
-https://www.cometvisu.org/CometVisu/en/0.11/manual/tutorial/first_steps.html
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YK86XVVkfDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The single steps, detailed with lots of screenshots, can be followed up in the manual:
+[Tutorial: First steps - a visu in half a minute](https://www.cometvisu.org/CometVisu/en/0.11/manual/tutorial/first_steps.html)
