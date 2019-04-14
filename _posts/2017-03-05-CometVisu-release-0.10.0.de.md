@@ -15,11 +15,11 @@ oder
 heruntergeladen werden.
 
 Dieses Release enthält als wichtigste Verbesserungen:
-- Neues System für die Dokumentation: http://cometvisu.org/CometVisu/de/latest/manual/
-- Neues Plugin: [powerspectrum](http://cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/powerspectrum/index.html)
-- Neues Plugin: [text to speech](http://cometvisu.org/CometVisu/de/latest/manual/config/widgets/plugins/speech/index.html)
+- Neues System für die Dokumentation: https://www.cometvisu.org/CometVisu/de/0.10/manual/
+- Neues Plugin: [powerspectrum](https://www.cometvisu.org/CometVisu/de/0.10/manual/config/widgets/plugins/powerspectrum/index.html)
+- Neues Plugin: [text to speech](https://www.cometvisu.org/CometVisu/de/0.10/manual/config/widgets/plugins/speech/index.html)
 - Erweiterung des Config-Managers, um auch Mediendateien (beispielsweise für Hintergrundbilder) verwalten zu können
-- Deutliche Verkürzung der Ladezeiten durch lokales Cachen (über den [enableCache](http://cometvisu.org/CometVisu/de/latest/manual/config/url-params.html?highlight=url#enablecache-caching-aktivieren) URL-Parameter einstellbar)
+- Deutliche Verkürzung der Ladezeiten durch lokales Cachen (über den [enableCache](https://www.cometvisu.org/CometVisu/de/0.10/manual/config/url-params.html?highlight=url#enablecache-caching-aktivieren) URL-Parameter einstellbar)
 - Aktualisierte Icons
 - Sicherstellung der Codequalität durch Einführung von Unit Tests
 - Viele behobene Fehler

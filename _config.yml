@@ -5,9 +5,9 @@ tagline:      The CometVisu open source development project for a building autom
 #       for "http://test.cometvisu.org/CometVisu".
 #       As this page is on the top level the baseurl must stay empty,
 #       cf. http://blog.parkermoore.de/2014/04/27/clearing-up-confusion-around-baseurl/
-url:          http://www.cometvisu.org
+url:          https://www.cometvisu.org
 baseurl:      
-manualurl:    http://www.cometvisu.org/CometVisu
+manualurl:    https://www.cometvisu.org/CometVisu
 
 # Gems
 gems:

@@ -48,7 +48,7 @@ The CometVisu builds the visualization out of so called widgets. These are
 arranged within a XML based configuration file that can be transparently
 modified with the integrated editor.
 
-![Editor example](http://test.cometvisu.org/CometVisu/de/latest/manual/_images/de_config_widgets_switch_index_editor_attributes.png 'Editor example')
+![Editor example](https://www.cometvisu.org/CometVisu/de/0.11/manual/_images/de_config_widgets_switch_index_editor_attributes.png 'Editor example')
 
 The widgets are the controls for all usual tasks. The list of all available
 widgets and their use can be found in the [manual]({{ site.t[page.lang].manual.url }})

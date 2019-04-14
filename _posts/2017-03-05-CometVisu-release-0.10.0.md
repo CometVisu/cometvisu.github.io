@@ -14,11 +14,11 @@ or
 [https://github.com/CometVisu/CometVisu/releases/download/v0.10.0/CometVisu-0.10.0.zip](https://github.com/CometVisu/CometVisu/releases/download/v0.10.0/CometVisu-0.10.0.zip).
 
 This release contains as major improvements:
-- New documentation system: http://cometvisu.org/CometVisu/en/latest/manual/
-- New plugin: [powerspectrum](http://cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/powerspectrum/index.html)
-- New plugin: [text to speech](http://cometvisu.org/CometVisu/en/latest/manual/config/widgets/plugins/speech/index.html)
+- New documentation system: https://www.cometvisu.org/CometVisu/en/0.10/manual/
+- New plugin: [powerspectrum](https://www.cometvisu.org/CometVisu/en/0.10/manual/config/widgets/plugins/powerspectrum/index.html)
+- New plugin: [text to speech](https://www.cometvisu.org/CometVisu/en/0.10/manual/config/widgets/plugins/speech/index.html)
 - Enhance the config manager to also manage media files like backdrop images
-- Big improvement of loading time by local caching (controllable by the [enableCache](http://cometvisu.org/CometVisu/de/latest/manual/config/url-params.html?highlight=url#enablecache-caching-aktivieren) URL parameter)
+- Big improvement of loading time by local caching (controllable by the [enableCache](https://www.cometvisu.org/CometVisu/de/0.10/manual/config/url-params.html?highlight=url#enablecache-caching-aktivieren) URL parameter)
 - Updated Icons
 - Introduction of unit tests to ensure code quality
 - Many bug fixes
