@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/latest/manual/config/rrd/pi_cputemp.html
+redirect_to: /CometVisu/de/0.11/manual/config/rrd/pi_cputemp.html
 ---
 

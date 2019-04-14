@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/latest/manual/install/raspberry.html
+redirect_to: /CometVisu/de/0.11/manual/install/raspberry.html
 ---
 

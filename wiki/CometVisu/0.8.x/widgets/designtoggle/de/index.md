@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/latest/manual/config/widgets/designtoggle/index.html
+redirect_to: /CometVisu/de/0.11/manual/config/widgets/designtoggle/index.html
 ---
 

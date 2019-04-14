@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/latest/manual/install/wiregate.html
+redirect_to: /CometVisu/de/0.11/manual/install/wiregate.html
 ---
 

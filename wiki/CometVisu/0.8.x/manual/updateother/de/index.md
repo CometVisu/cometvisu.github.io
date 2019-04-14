@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-redirect_to: /CometVisu/de/latest/manual/install/update-other.html
+redirect_to: /CometVisu/de/0.11/manual/install/update-other.html
 ---
 
