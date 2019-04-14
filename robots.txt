@@ -1,4 +1,4 @@
-Sitemap: http://test.cometvisu.org/sitemap.xml
+Sitemap: https://www.cometvisu.org/sitemap.xml
 
 User-agent: *
 Allow: /
