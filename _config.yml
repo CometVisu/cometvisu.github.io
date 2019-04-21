@@ -47,15 +47,18 @@ t:
     gallery:
       name: "Screenshots"
       url: "/screenshots"
+    demo:
+      name: "Demo"
+      url: "https://www.cometvisu.org/CometVisu/de/latest/demo/"
     development:
       name: "Development"
       url: "/development"
     manual:
       name: "Manual"
-      url: "http://www.cometvisu.org/CometVisu/en/current/manual/"
+      url: "https://www.cometvisu.org/CometVisu/en/latest/manual/"
     apidoc:
       name: "API Documentation"
-      url: "http://www.cometvisu.org/CometVisu/en/current/api/"
+      url: "https://www.cometvisu.org/CometVisu/en/current/api/"
     languageSelect: "Language select"
     generatedOn: "Generated on"
     license:
@@ -84,15 +87,18 @@ t:
     gallery:
       name: "Screenshots"
       url: "/screenshots.de"
+    demo:
+      name: "Demo"
+      url: "https://www.cometvisu.org/CometVisu/de/latest/demo/"
     development:
       name: "Entwicklung"
       url: "/development.de"
     manual:
       name: "Handbuch"
-      url: "http://www.cometvisu.org/CometVisu/de/current/manual/"
+      url: "https://www.cometvisu.org/CometVisu/de/latest/manual/"
     apidoc:
       name: "API Dokumentation"
-      url: "http://www.cometvisu.org/CometVisu/en/current/api/"
+      url: "https://www.cometvisu.org/CometVisu/en/current/api/"
     languageSelect: "Sprachwahl"
     generatedOn: "Erzeugt am"
     license:
