@@ -33,7 +33,7 @@
         {{ desc[page.lang] }}<br/>
         {% for path in paths %}
           {% assign pathSplit = path | split:'/' %}
-          {% if version == pathSplit[2] %}
+          {% if version == pathSplit[1] %}
             {% assign useVersion = true %}
             <a href="{{ path | remove_first:'_' }}" data-title="{{ desc[page.lang] }}" data-lightbox="thumb"><img src="{{ path | remove_first:'_' }}" class="thumbnail"/></a>
           {% endif %}
@@ -50,7 +50,7 @@
         {{ desc[page.lang] }}<br/>
         {% for path in paths %}
           {% assign pathSplit = path | split:'/' %}
-          {% if versions contains pathSplit[2] %}
+          {% if versions contains pathSplit[1] %}
           {% else %}
             {% assign useVersion = true %}
             <a href="{{ path | remove_first:'_' }}" data-lightbox="thumb"><img src="{{ path | remove_first:'_' }}" class="thumbnail"/></a>
