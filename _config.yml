@@ -114,6 +114,10 @@ t:
 collections:
   screenshotFiles:
     descriptions:
+      - dir: "0.12.0"
+        title:
+          en: "Preview of Release 0.12.0 (unreleased)"
+          de: "Vorschau des Release 0.12.0 (noch nicht veröffentlicht)"
       - dir: "0.10.0"
         title: 
           en: "Release 0.10.0 (Mar 5, 2017)"
